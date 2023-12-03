@@ -1,0 +1,58 @@
+package com.android.settingslib.widget;
+
+/* loaded from: classes2.dex */
+public final class R$id {
+    public static final int app1_view = 2131361992;
+    public static final int app2_view = 2131361993;
+    public static final int app3_view = 2131361994;
+    public static final int app_icon = 2131362013;
+    public static final int app_summary = 2131362024;
+    public static final int app_title = 2131362027;
+    public static final int app_views_container = 2131362030;
+    public static final int arrow_right = 2131362042;
+    public static final int banner_dismiss_btn = 2131362071;
+    public static final int banner_icon = 2131362072;
+    public static final int banner_negative_btn = 2131362073;
+    public static final int banner_positive_btn = 2131362074;
+    public static final int banner_subtitle = 2131362075;
+    public static final int banner_summary = 2131362076;
+    public static final int banner_title = 2131362077;
+    public static final int bar_chart_details = 2131362079;
+    public static final int bar_chart_title = 2131362080;
+    public static final int bar_summary = 2131362081;
+    public static final int bar_title = 2131362082;
+    public static final int bar_view = 2131362083;
+    public static final int bar_view1 = 2131362084;
+    public static final int bar_view2 = 2131362085;
+    public static final int bar_view3 = 2131362086;
+    public static final int bar_view4 = 2131362087;
+    public static final int bottom_summary = 2131362174;
+    public static final int button1 = 2131362214;
+    public static final int button2 = 2131362215;
+    public static final int button3 = 2131362216;
+    public static final int button4 = 2131362217;
+    public static final int custom_content = 2131362406;
+    public static final int divider1 = 2131362529;
+    public static final int divider2 = 2131362530;
+    public static final int divider3 = 2131362531;
+    public static final int empty_view = 2131362587;
+    public static final int frame = 2131362744;
+    public static final int header_details = 2131362814;
+    public static final int header_title = 2131362821;
+    public static final int icon_view = 2131362899;
+    public static final int illustration_frame = 2131362909;
+    public static final int lottie_view = 2131363166;
+    public static final int middleground_layout = 2131363237;
+    public static final int radio_extra_widget = 2131363739;
+    public static final int radio_extra_widget_container = 2131363740;
+    public static final int restricted_icon = 2131363793;
+    public static final int settingslib_learn_more = 2131363935;
+    public static final int settingslib_main_switch_bar = 2131363936;
+    public static final int spinner = 2131364059;
+    public static final int summary = 2131364175;
+    public static final int switch_text = 2131364187;
+    public static final int top_row = 2131364300;
+    public static final int total_summary = 2131364305;
+    public static final int two_target_divider = 2131364398;
+    public static final int usage_summary = 2131364435;
+}

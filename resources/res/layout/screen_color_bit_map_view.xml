@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.android.settings.display.ScreenColorBitMapBgView
+        android:id="@+id/screen_color_image_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/color_bit_point"
+        android:focusable="true"
+        android:layout_width="@dimen/color_bitmap_point_size"
+        android:layout_height="@dimen/color_bitmap_point_size"
+        android:src="@drawable/ic_color_cicle"
+        android:contentDescription="@string/adjust_temperature_title"/>
+</merge>

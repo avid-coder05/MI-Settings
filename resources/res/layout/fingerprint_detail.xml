@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fingerprint_detail_image_top_margin"
+            android:src="@drawable/fingerprint_detail_image"/>
+        <miuix.androidbasewidget.widget.ClearableEditText
+            android:gravity="start|center_vertical"
+            android:id="@+id/fingerprint_title_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fingerprint_detail_edittext_top_margin"
+            android:inputType="textNoSuggestions"
+            android:layout_marginStart="@dimen/fingerprint_detail_edittext_horizontal_margin"
+            android:layout_marginEnd="@dimen/fingerprint_detail_edittext_horizontal_margin"
+            app:drawableEndCompat="?attr/clearableEditTextIcon"
+            style="@style/WidgetEditText"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_gravity="bottom"
+            android:id="@+id/fingerprint_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fingerprint_detail_button_top_margin"
+            android:layout_marginBottom="@dimen/fingerprint_detail_button_top_bottom"
+            android:text="@string/delete_fingerprint_text"
+            android:layout_marginStart="@dimen/fingerprint_detail_button_horizontal_margin"
+            android:layout_marginEnd="@dimen/fingerprint_detail_button_horizontal_margin"/>
+    </LinearLayout>
+</ScrollView>

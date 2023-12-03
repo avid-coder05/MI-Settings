@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="privacypassword_back_icon">@drawable/miuix_appcompat_action_bar_back_dark</drawable>
+    <drawable name="privacypassword_setting_icon">@drawable/miuix_appcompat_icon_settings_dark</drawable>
+</resources>

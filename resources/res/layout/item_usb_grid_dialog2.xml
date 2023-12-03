@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:padding="7.27dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/usb_background_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="160.36dp"
+        android:minHeight="76.36dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/icon"
+            android:layout_width="34.91dp"
+            android:layout_height="34.91dp"
+            android:layout_marginLeft="18.18dp"
+            android:scaleType="fitCenter"/>
+        <TextView
+            android:textSize="15.27sp"
+            android:textColor="@color/miuix_usb_dialog_text_color"
+            android:ellipsize="end"
+            android:layout_gravity="center"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.91dp"
+            android:layout_marginRight="10.91dp"
+            android:maxLines="2"
+            android:autoSizeTextType="uniform"
+            android:autoSizeStepGranularity="1sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="15.27sp"/>
+    </LinearLayout>
+</LinearLayout>

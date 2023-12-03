@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/wfd_settings_title"
+    android:key="wifi_display_settings_screen">
+    <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+        android:persistent="false"
+        android:title="@string/enable_wifi_display"
+        android:key="enable_wifi_display"
+        android:order="-100"/>
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="btn_bg_dark">@drawable/miuix_appcompat_btn_bg_dialog_dark</drawable>
+    <drawable name="btn_bg_light">@drawable/miuix_appcompat_btn_bg_dialog_light</drawable>
+    <drawable name="gxzw_anim_drawable">#ff141414</drawable>
+    <drawable name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</drawable>
+    <drawable name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <drawable name="privacypassword_back_icon">@drawable/miuix_appcompat_action_bar_back_light</drawable>
+    <drawable name="privacypassword_setting_icon">@drawable/miuix_appcompat_icon_settings_light</drawable>
+</resources>

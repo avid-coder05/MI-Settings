@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="?attr/preferenceRadioTwoStateContentPaddingStart"
+    android:paddingRight="?attr/preferenceRadioTwoStateContentPaddingEnd">
+    <item
+        android:drawable="@drawable/miuix_preference_item_radio_two_state_background_0"
+        android:left="@dimen/miuix_appcompat_two_state_extra_padding_horizontal_small"
+        android:right="@dimen/miuix_appcompat_two_state_extra_padding_horizontal_small"/>
+</layer-list>

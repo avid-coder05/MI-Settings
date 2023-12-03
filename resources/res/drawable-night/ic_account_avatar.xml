@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/header_icon_xiaomi_account_size"
+    android:width="@dimen/header_icon_xiaomi_account_size"
+    android:viewportWidth="106"
+    android:viewportHeight="106">
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M53,0L53,0A53,53 0,0 1,106 53L106,53A53,53 0,0 1,53 106L53,106A53,53 0,0 1,0 53L0,53A53,53 0,0 1,53 0z"
+        android:fillAlpha="0.2"/>
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M66.999,39C66.999,46.732 60.731,53 52.999,53C45.267,53 38.999,46.732 38.999,39C38.999,31.268 45.267,25 52.999,25C60.731,25 66.999,31.268 66.999,39ZM38,59H68C74.075,59 79,63.925 79,70C79,76.075 74.075,81 68,81H38C31.925,81 27,76.075 27,70C27,63.925 31.925,59 38,59Z"
+        android:fillAlpha="0.5"
+        android:fillType="evenOdd"/>
+</vector>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.springback.view.SpringBackLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:scrollableView="@+id/scrollview">
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <FrameLayout
+                    android:id="@+id/prefs_container"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:smoothScrollbar="false"/>
+                <Button
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:id="@+id/feedback_btn"
+                    android:paddingLeft="28dp"
+                    android:paddingRight="28dp"
+                    android:layout_width="336dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="27dp"
+                    android:text="@string/feedback_btn_text"
+                    android:layout_below="@+id/prefs_container"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="mipro-medium"
+                    style="@style/Widget.Button.Warning"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</miuix.springback.view.SpringBackLayout>

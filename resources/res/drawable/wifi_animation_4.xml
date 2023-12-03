@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/res_0x7f080096_wifi_animation_4__0">
+    <target
+        android:name="group_4"
+        android:animation="@drawable/res_0x7f080097_wifi_animation_4__1"/>
+</animated-vector>

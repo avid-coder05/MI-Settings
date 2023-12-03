@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="16.36dp"
+    android:paddingRight="16.36dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/icon_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/launcher_icon"
+        android:paddingStart="12.73dp"/>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/bg_screen_zoom_icons"
+        android:paddingTop="35dp"
+        android:paddingBottom="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/icon_grand_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/font_setting_line"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

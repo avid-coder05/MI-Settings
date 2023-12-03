@@ -1,0 +1,58 @@
+package miuix.appcompat;
+
+/* loaded from: classes5.dex */
+public final class R$dimen {
+    public static final int action_bar_subtitle_bottom_margin = 2131165314;
+    public static final int action_bar_subtitle_top_margin = 2131165315;
+    public static final int fake_landscape_screen_minor_size = 2131165778;
+    public static final int miuix_appcompat_action_bar_stacked_tab_max_width = 2131166352;
+    public static final int miuix_appcompat_action_bar_subtitle_bottom_padding = 2131166357;
+    public static final int miuix_appcompat_action_bar_subtitle_collapse_padding_vertical = 2131166358;
+    public static final int miuix_appcompat_action_bar_subtitle_start_margin = 2131166359;
+    public static final int miuix_appcompat_action_bar_tab_expand_margin = 2131166362;
+    public static final int miuix_appcompat_action_bar_tab_expand_text_size = 2131166363;
+    public static final int miuix_appcompat_action_bar_tab_expand_text_size_1 = 2131166364;
+    public static final int miuix_appcompat_action_bar_tab_expand_text_size_2 = 2131166365;
+    public static final int miuix_appcompat_action_bar_tab_secondary_margin = 2131166368;
+    public static final int miuix_appcompat_action_bar_title_bottom_padding = 2131166370;
+    public static final int miuix_appcompat_action_bar_title_collapse_padding_vertical = 2131166371;
+    public static final int miuix_appcompat_action_bar_title_horizontal_padding = 2131166373;
+    public static final int miuix_appcompat_action_bar_title_tab_horizontal_padding = 2131166376;
+    public static final int miuix_appcompat_action_bar_title_top_padding = 2131166377;
+    public static final int miuix_appcompat_action_button_bg_bottom_padding = 2131166378;
+    public static final int miuix_appcompat_action_button_bg_top_padding = 2131166379;
+    public static final int miuix_appcompat_action_button_gap = 2131166380;
+    public static final int miuix_appcompat_action_button_max_width = 2131166384;
+    public static final int miuix_appcompat_context_menu_separate_item_margin_top = 2131166444;
+    public static final int miuix_appcompat_context_menu_window_margin_screen = 2131166447;
+    public static final int miuix_appcompat_context_menu_window_margin_statusbar = 2131166448;
+    public static final int miuix_appcompat_dialog_bottom_margin = 2131166457;
+    public static final int miuix_appcompat_dialog_btn_margin_horizontal = 2131166458;
+    public static final int miuix_appcompat_dialog_btn_margin_vertical = 2131166459;
+    public static final int miuix_appcompat_dialog_button_panel_horizontal_margin = 2131166462;
+    public static final int miuix_appcompat_dialog_ime_margin = 2131166489;
+    public static final int miuix_appcompat_dialog_max_width = 2131166500;
+    public static final int miuix_appcompat_dialog_max_width_land = 2131166501;
+    public static final int miuix_appcompat_dialog_message_line_height = 2131166505;
+    public static final int miuix_appcompat_dialog_width_margin = 2131166525;
+    public static final int miuix_appcompat_drop_down_menu_padding_large = 2131166529;
+    public static final int miuix_appcompat_drop_down_menu_padding_single_item = 2131166530;
+    public static final int miuix_appcompat_drop_down_menu_padding_small = 2131166531;
+    public static final int miuix_appcompat_floating_window_background_border_width = 2131166564;
+    public static final int miuix_appcompat_floating_window_background_radius = 2131166565;
+    public static final int miuix_appcompat_floating_window_top_offset = 2131166575;
+    public static final int miuix_appcompat_immersion_menu_background_radius = 2131166589;
+    public static final int miuix_appcompat_list_menu_dialog_maximum_height = 2131166596;
+    public static final int miuix_appcompat_list_menu_dialog_maximum_width = 2131166597;
+    public static final int miuix_appcompat_list_menu_dialog_minimum_width = 2131166598;
+    public static final int miuix_appcompat_menu_popup_max_height = 2131166607;
+    public static final int miuix_appcompat_radio_button_drawable_padding = 2131166657;
+    public static final int miuix_appcompat_search_mode_bg_padding = 2131166675;
+    public static final int miuix_appcompat_search_mode_bg_padding_top = 2131166677;
+    public static final int miuix_appcompat_search_view_default_height = 2131166680;
+    public static final int miuix_appcompat_small_text_size = 2131166698;
+    public static final int miuix_appcompat_subtitle_text_size = 2131166723;
+    public static final int miuix_appcompat_window_extra_padding_horizontal_huge = 2131166730;
+    public static final int miuix_appcompat_window_extra_padding_horizontal_large = 2131166731;
+    public static final int miuix_appcompat_window_extra_padding_horizontal_small = 2131166732;
+}

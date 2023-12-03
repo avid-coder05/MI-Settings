@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/ambient_display_screen_title"
+    android:layoutDirection="locale">
+    <com.android.settingslib.MiuiRestrictedSwitchPreference
+        android:persistent="false"
+        android:title="@string/ambient_display_screen_title"
+        android:key="aod_mode_enable"/>
+</PreferenceScreen>

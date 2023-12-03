@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.springback.view.SpringBackLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:scrollableView="@+id/app_launch_scrollview">
+    <miuix.core.widget.NestedScrollView
+        android:id="@+id/app_launch_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+                android:id="@+id/prefs_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+                android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="13.1sp"
+                    android:textColor="@color/reset_hint_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="74.5dp"
+                    android:text="@string/reset_remove_data_hint"
+                    android:fontFamily="mipro"/>
+                <TextView
+                    android:textSize="13.1sp"
+                    android:textColor="@color/reset_hint_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14.5dp"
+                    android:text="@string/reset_confirm_directory"
+                    android:fontFamily="mipro"/>
+            </LinearLayout>
+        </LinearLayout>
+    </miuix.core.widget.NestedScrollView>
+</miuix.springback.view.SpringBackLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:paddingStart="@dimen/miuix_preference_item_padding_start"
+    android:paddingEnd="@dimen/miuix_preference_item_padding_end">
+    <GridView
+        android:id="@+id/popup_gridview"
+        android:padding="3dp"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="720dp"
+        android:horizontalSpacing="6dp"
+        android:verticalSpacing="10dp"
+        android:numColumns="2"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

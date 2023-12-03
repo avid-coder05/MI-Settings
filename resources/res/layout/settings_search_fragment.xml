@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.nestedheader.widget.NestedHeaderLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nestedheaderlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:headerView="@+id/header_view"
+    app:rangeOffset="0px"
+    app:scrollableView="@+id/springbacklayout">
+    <include
+        android:id="@+id/header_view"
+        layout="@layout/miuix_appcompat_search_stub"/>
+    <miuix.springback.view.SpringBackLayout
+        android:id="@+id/springbacklayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:scrollOrientation="vertical"
+        app:scrollableView="@+id/scroll_headers">
+        <miuix.recyclerview.widget.RecyclerView
+            android:id="@+id/scroll_headers"
+            android:paddingTop="@dimen/miuix_preference_rv_top_padding"
+            android:paddingBottom="@dimen/miuix_preference_rv_bottom_padding"
+            android:fadingEdgeLength="16dp"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </miuix.springback.view.SpringBackLayout>
+    <miuix.recyclerview.widget.RecyclerView
+        android:id="@+id/search_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <View
+        android:id="@+id/search_loading"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</miuix.nestedheader.widget.NestedHeaderLayout>

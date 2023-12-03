@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/title_container"
+    android:focusable="false"
+    android:clickable="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no">
+    <ImageView
+        android:background="@drawable/paper_eyecare_image"
+        android:layout_width="wrap_content"
+        android:layout_height="184dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="@dimen/paper_mode_view_padding"
+        android:layout_marginEnd="@dimen/paper_mode_view_padding"/>
+</LinearLayout>

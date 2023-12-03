@@ -1,0 +1,58 @@
+package com.android.settingslib;
+
+/* loaded from: classes2.dex */
+public final class R$id {
+    public static final int ad_service_instructions_link_text_view = 2131361908;
+    public static final int additional_summary = 2131361920;
+    public static final int alert = 2131361943;
+    public static final int alert_icon = 2131361945;
+    public static final int alert_label = 2131361946;
+    public static final int alert_summary = 2131361947;
+    public static final int arrow_right = 2131362042;
+    public static final int bottom_label_group = 2131362171;
+    public static final int bottom_label_space = 2131362172;
+    public static final int bubble_all = 2131362199;
+    public static final int bubble_all_icon = 2131362200;
+    public static final int bubble_all_label = 2131362201;
+    public static final int bubble_none = 2131362203;
+    public static final int bubble_none_icon = 2131362204;
+    public static final int bubble_none_label = 2131362205;
+    public static final int bubble_selected = 2131362206;
+    public static final int bubble_selected_icon = 2131362207;
+    public static final int bubble_selected_label = 2131362208;
+    public static final int container = 2131362358;
+    public static final int friction_icon = 2131362756;
+    public static final int graph_label_group = 2131362780;
+    public static final int icon = 2131362878;
+    public static final int icon_button = 2131362879;
+    public static final int label = 2131363064;
+    public static final int label_bottom = 2131363067;
+    public static final int label_end = 2131363068;
+    public static final int label_group = 2131363069;
+    public static final int label_middle = 2131363071;
+    public static final int label_start = 2131363072;
+    public static final int label_top = 2131363073;
+    public static final int message = 2131363220;
+    public static final int priority_group = 2131363641;
+    public static final int restricted_icon = 2131363793;
+    public static final int settings_button = 2131363922;
+    public static final int settings_button_no_background = 2131363923;
+    public static final int silence = 2131363984;
+    public static final int silence_icon = 2131363985;
+    public static final int silence_label = 2131363986;
+    public static final int silence_summary = 2131363987;
+    public static final int space1 = 2131364051;
+    public static final int space2 = 2131364052;
+    public static final int spacer = 2131364053;
+    public static final int summary = 2131364175;
+    public static final int text = 2131364233;
+    public static final int text_right = 2131364252;
+    public static final int two_target_divider = 2131364398;
+    public static final int usage_graph = 2131364432;
+    public static final int user_name = 2131364452;
+    public static final int user_photo = 2131364453;
+    public static final int zen_alarm_warning = 2131364594;
+    public static final int zen_duration_container = 2131364614;
+    public static final int zen_radio_buttons = 2131364632;
+    public static final int zen_radio_buttons_content = 2131364633;
+}

@@ -1,0 +1,37 @@
+package com.google.common.base;
+
+/* loaded from: classes2.dex */
+final class Absent<T> extends Optional<T> {
+    static final Absent<Object> INSTANCE = new Absent<>();
+    private static final long serialVersionUID = 0;
+
+    private Absent() {
+    }
+
+    private Object readResolve() {
+        return INSTANCE;
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static <T> Optional<T> withType() {
+        return INSTANCE;
+    }
+
+    @Override // com.google.common.base.Optional
+    public boolean equals(Object obj) {
+        return obj == this;
+    }
+
+    public int hashCode() {
+        return 2040732332;
+    }
+
+    @Override // com.google.common.base.Optional
+    public boolean isPresent() {
+        return false;
+    }
+
+    public String toString() {
+        return "Optional.absent()";
+    }
+}

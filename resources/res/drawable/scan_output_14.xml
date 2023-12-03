@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/res_0x7f08006d_scan_output_14__0">
+    <target
+        android:name="step14"
+        android:animation="@drawable/res_0x7f08006e_scan_output_14__1"/>
+</animated-vector>

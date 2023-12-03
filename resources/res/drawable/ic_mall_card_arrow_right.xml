@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/mall_card_icon_arrow_right_height"
+    android:width="@dimen/mall_card_icon_arrow_right_width"
+    android:autoMirrored="true"
+    android:viewportWidth="7"
+    android:viewportHeight="10">
+    <path
+        android:fillColor="@color/mall_card_arrowRight"
+        android:pathData="M0.8323,0.5535C1.263,0.1228 1.9613,0.1228 2.3921,0.5535L6.0402,4.2016C6.329,4.4904 6.4241,4.8996 6.3256,5.2678C6.2807,5.4622 6.1824,5.6468 6.0309,5.7984L2.3828,9.4465C1.9521,9.8772 1.2538,9.8772 0.823,9.4465C0.3923,9.0157 0.3923,8.3174 0.823,7.8867L3.7143,4.9954L0.8323,2.1133C0.4015,1.6826 0.4015,0.9842 0.8323,0.5535Z"
+        android:fillAlpha="0.3"
+        android:fillType="evenOdd"/>
+</vector>

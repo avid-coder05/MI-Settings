@@ -1,0 +1,5192 @@
+{
+  "resource": "settings_label", 
+  "class": "com.android.settings.search.tree.MiuiSettingsTree", 
+  "son": [
+    {
+      "keywords": "search_unlogin_account_title", 
+      "intent": {
+        "intent_extra": [
+          {
+            "name": "account_type", 
+            "value": "com.xiaomi"
+          }
+        ], 
+        "intent_package": "com.xiaomi.account", 
+        "intent_action": "android.settings.XIAOMI_ACCOUNT_SYNC_SETTINGS"
+      }, 
+      "resource": "unlogin_account_title", 
+      "icon": "ic_account_avatar"
+    }, 
+    {
+      "resource": "my_device", 
+      "fragment": "com.android.settings.device.MiuiMyDeviceSettings", 
+      "son": [
+        {
+          "keywords": "search_device_name", 
+          "resource": "device_name", 
+          "second_space": "false"
+        }, 
+        {
+          "keywords": "search_storage_settings", 
+          "resource": "storage_settings", 
+          "class": "com.android.settings.search.tree.MiuiMemorySettingsTree"
+        }, 
+        {
+          "resource": "device_mall_card_title"
+        }, 
+        {
+          "resource": "device_miui_version_parameters"
+        }, 
+        {
+          "resource": "firmware_version"
+        }, 
+        {
+          "resource": "security_patch"
+        }, 
+        {
+          "fragment": "com.android.settings.device.MiuiMyDeviceDetailSettings", 
+          "resource": "complete_parameters", 
+          "son": [
+            {
+              "resource": "model_number"
+            }, 
+            {
+              "resource": "device_miui_version_parameters"
+            }, 
+            {
+              "resource": "firmware_version"
+            }, 
+            {
+              "resource": "security_patch"
+            }, 
+            {
+              "resource": "device_opcust_version"
+            }, 
+            {
+              "resource": "device_memory"
+            }, 
+            {
+              "resource": "model_name"
+            }, 
+            {
+              "resource": "device_cpu"
+            }, 
+            {
+              "resource": "baseband_version"
+            }, 
+            {
+              "resource": "kernel_version"
+            }, 
+            {
+              "resource": "hardware_version"
+            }, 
+            {
+              "resource": "device_internal_memory"
+            }, 
+            {
+              "keywords": "search_legal_information", 
+              "fragment": "com.android.settings.Legal", 
+              "resource": "legal_information", 
+              "son": [
+                {
+                  "resource": "legal_written_offer"
+                }, 
+                {
+                  "intent": {
+                    "intent_action": "android.settings.LICENSE"
+                  }, 
+                  "resource": "license_title"
+                }, 
+                {
+                  "intent": {
+                    "intent_action": "android.settings.TERMS"
+                  }, 
+                  "resource": "terms_title"
+                }, 
+                {
+                  "fragment": "com.android.settings.deviceinfo.legal.ModuleLicensesDashboard", 
+                  "resource": "module_license_title"
+                }, 
+                {
+                  "resource": "copyright"
+                }, 
+                {
+                  "keywords": "search_user_agreement", 
+                  "resource": "user_agreement"
+                }, 
+                {
+                  "keywords": "search_privacy_policy", 
+                  "resource": "privacy_policy"
+                }, 
+                {
+                  "resource": "sar"
+                }, 
+                {
+                  "resource": "user_experience_program"
+                }, 
+                {
+                  "resource": "poco_launcher_user_agreement"
+                }, 
+                {
+                  "resource": "poco_launcher_privacy_policy"
+                }
+              ]
+            }, 
+            {
+              "keywords": "search_device_status", 
+              "fragment": "com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment", 
+              "resource": "device_status", 
+              "son": [
+                {
+                  "resource": "battery_status_title"
+                }, 
+                {
+                  "resource": "battery_level_title"
+                }, 
+                {
+                  "category": "my_device_info_basic_info_category_title", 
+                  "resource": "my_device_info_account_preference_title"
+                }, 
+                {
+                  "category": "my_device_info_basic_info_category_title", 
+                  "resource": "status_number", 
+                  "second_space": "false"
+                }, 
+                {
+                  "category": "my_device_info_device_details_category_title", 
+                  "keywords": "search_sim_status_title", 
+                  "resource": "sim_status_title", 
+                  "second_space": "false"
+                }, 
+                {
+                  "category": "my_device_info_device_details_category_title", 
+                  "intent": {
+                    "intent_class": "com.android.phone.settings.SimLockActivity", 
+                    "intent_package": "com.android.phone"
+                  }, 
+                  "resource": "sim_card_lock"
+                }, 
+                {
+                  "category": "my_device_info_device_details_category_title", 
+                  "fragment": "com.android.settings.deviceinfo.hardwareinfo.HardwareInfoFragment", 
+                  "resource": "model_info", 
+                  "son": [
+                    {
+                      "resource": "model_info"
+                    }, 
+                    {
+                      "resource": "status_serial_number"
+                    }, 
+                    {
+                      "resource": "hardware_revision"
+                    }
+                  ]
+                }, 
+                {
+                  "category": "my_device_info_device_details_category_title", 
+                  "resource": "status_imei"
+                }, 
+                {
+                  "category": "my_device_info_device_details_category_title", 
+                  "resource": "status_esim_id"
+                }, 
+                {
+                  "category": "my_device_info_device_identifiers_category_title", 
+                  "resource": "wifi_ip_address"
+                }, 
+                {
+                  "category": "my_device_info_device_identifiers_category_title", 
+                  "resource": "status_device_wifi_mac_address"
+                }, 
+                {
+                  "category": "my_device_info_device_identifiers_category_title", 
+                  "resource": "status_bt_address"
+                }, 
+                {
+                  "category": "my_device_info_device_identifiers_category_title", 
+                  "resource": "status_up_time"
+                }, 
+                {
+                  "category": "my_device_info_device_identifiers_category_title", 
+                  "intent": {
+                    "intent_action": "android.settings.SHOW_MANUAL"
+                  }, 
+                  "resource": "manual"
+                }, 
+                {
+                  "category": "my_device_info_device_identifiers_category_title", 
+                  "resource": "device_feedback"
+                }, 
+                {
+                  "category": "my_device_info_device_identifiers_category_title", 
+                  "resource": "fcc_equipment_id"
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "resource": "params_interpretation"
+        }, 
+        {
+          "fragment": "com.android.settings.backup.PrivacySettings", 
+          "resource": "privacy_settings_new", 
+          "son": [
+            {
+              "category": "system_backup_section_title_new", 
+              "resource": "local_backup_usestatus_title"
+            }, 
+            {
+              "category": "system_backup_section_title_new", 
+              "intent": {
+                "intent_package": "com.miui.backup", 
+                "intent_action": "miui.intent.backup.LOCAL_HOME_ACTIVITY"
+              }, 
+              "resource": "phone_backup_title"
+            }, 
+            {
+              "category": "system_backup_section_title_new", 
+              "intent": {
+                "intent_package": "com.miui.backup", 
+                "intent_action": "miui.intent.backup.PC_HOME_ACTIVITY"
+              }, 
+              "resource": "computer_backup_title"
+            }, 
+            {
+              "category": "system_backup_section_title_new", 
+              "intent": {
+                "intent_package": "com.miui.backup", 
+                "intent_action": "miui.intent.backup.USB_HOME_ACTIVITY"
+              }, 
+              "resource": "flash_drive_backup_restore"
+            }, 
+            {
+              "category": "cloud_category_text", 
+              "resource": "micloud_service_title"
+            }, 
+            {
+              "category": "google_backup_section_title", 
+              "fragment": "com.android.settings.backup.ToggleBackupSettingFragment", 
+              "resource": "backup_data_title", 
+              "second_space": "false"
+            }, 
+            {
+              "category": "google_backup_section_title", 
+              "intent": {
+                "intent_action": "dummy"
+              }, 
+              "resource": "backup_configure_account_title", 
+              "second_space": "false"
+            }, 
+            {
+              "category": "google_backup_section_title", 
+              "is_checkbox": "true", 
+              "resource": "auto_restore_title", 
+              "second_space": "false"
+            }, 
+            {
+              "intent": {
+                "intent_class": "com.android.settings.backup.CommonIssueActivity", 
+                "intent_package": "com.android.settings"
+              }, 
+              "resource": "help_and_feedback_title"
+            }, 
+            {
+              "resource": "backup_data_management_title"
+            }, 
+            {
+              "resource": "backup_inactive_title"
+            }
+          ]
+        }, 
+        {
+          "intent": {
+            "intent_package": "com.miui.huanji", 
+            "intent_action": "com.intent.action.Huanji"
+          }, 
+          "resource": "mi_transfer"
+        }, 
+        {
+          "intent": {
+            "intent_action": "com.xiaomi.VIEW_ACTIVATION_INFO"
+          }, 
+          "resource": "device_activation_info"
+        }, 
+        {
+          "resource": "maintenance_title"
+        }, 
+        {
+          "fragment": "com.android.settings.MiuiMasterClear", 
+          "resource": "master_clear_title_new", 
+          "son": [
+            {
+              "category": "clear_phone_data_category", 
+              "resource": "acount_data"
+            }, 
+            {
+              "category": "clear_phone_data_category", 
+              "resource": "contact_data"
+            }, 
+            {
+              "category": "clear_phone_data_category", 
+              "resource": "photo_data"
+            }, 
+            {
+              "category": "clear_phone_data_category", 
+              "resource": "application_data"
+            }, 
+            {
+              "category": "clear_phone_data_category", 
+              "resource": "backup_data"
+            }, 
+            {
+              "category": "clear_phone_data_category", 
+              "resource": "sd_data"
+            }, 
+            {
+              "category": "clear_phone_data_category", 
+              "resource": "other_data"
+            }, 
+            {
+              "category": "clear_phone_data_category", 
+              "is_checkbox": "true", 
+              "resource": "sd_data"
+            }, 
+            {
+              "category": "erase_optional", 
+              "is_checkbox": "true", 
+              "resource": "erase_application", 
+              "second_space": "false"
+            }, 
+            {
+              "category": "erase_optional", 
+              "is_checkbox": "true", 
+              "resource": "erase_external_storage", 
+              "second_space": "false"
+            }
+          ]
+        }, 
+        {
+          "fragment": "com.android.settings.OneKeyMigrateHistory", 
+          "resource": "huanji_history_title"
+        }, 
+        {
+          "fragment": "com.android.settings.device.PreInstallApplication", 
+          "resource": "pre_installed_application", 
+          "son": [
+            {
+              "category": "pre_install_category_appname", 
+              "resource": "pre_install_app_phone"
+            }, 
+            {
+              "category": "pre_install_category_appname", 
+              "resource": "pre_install_app_sms"
+            }, 
+            {
+              "category": "pre_install_category_appname", 
+              "resource": "pre_install_app_browser"
+            }, 
+            {
+              "category": "pre_install_category_appname", 
+              "resource": "pre_install_app_camera"
+            }, 
+            {
+              "category": "pre_install_category_appname", 
+              "resource": "pre_install_app_weather"
+            }, 
+            {
+              "category": "pre_install_category_appname", 
+              "resource": "pre_install_app_gallery"
+            }, 
+            {
+              "category": "pre_install_category_appname", 
+              "resource": "pre_install_app_other"
+            }, 
+            {
+              "category": "pre_install_category_question", 
+              "resource": "pre_install_question_uninstall_title"
+            }, 
+            {
+              "category": "pre_install_category_question", 
+              "resource": "pre_install_question_disable_title"
+            }, 
+            {
+              "category": "pre_install_category_question", 
+              "resource": "pre_install_question_query_title"
+            }
+          ]
+        }, 
+        {
+          "intent": {
+            "intent_action": "android.settings.SAFETY"
+          }, 
+          "resource": "settings_safetylegal_title"
+        }, 
+        {
+          "resource": "instruction_title"
+        }, 
+        {
+          "fragment": "com.android.settings.credentials.MiuiCredentialsFragment", 
+          "resource": "approve_title"
+        }
+      ], 
+      "keywords": "search_my_device", 
+      "class": "com.android.settings.search.tree.AboutDeviceSettingsTree", 
+      "icon": "ic_my_device"
+    }, 
+    {
+      "intent": {
+        "intent_class": "com.xiaomi.market.ui.UpdateAppsActivity", 
+        "intent_package": "com.xiaomi.discover"
+      }, 
+      "resource": "system_apps_updater", 
+      "class": "com.android.settings.search.tree.SystemAppsUpdaterTree", 
+      "icon": "ic_system_apps_updater"
+    }, 
+    {
+      "fragment": "com.android.settings.MiuiSecurityStatusSettings", 
+      "son": [
+        {
+          "resource": "find_my_device"
+        }, 
+        {
+          "resource": "security_update"
+        }, 
+        {
+          "resource": "security_update"
+        }, 
+        {
+          "resource": "security_update"
+        }
+      ], 
+      "resource": "security_status", 
+      "class": "com.android.settings.search.tree.SecurityStatusSettingsTree", 
+      "icon": "ic_security_status"
+    }, 
+    {
+      "resource": "sim_management_title", 
+      "son": [
+        {
+          "category": "msim_setting_categery_title", 
+          "intent": {
+            "intent_class": "com.android.phone.settings.MultiSimInfoEditorActivity", 
+            "intent_package": "com.android.phone"
+          }, 
+          "resource": "sim_card_slot_1", 
+          "class": "com.android.phone.settings.search.tree.SimInfoSettingsTree", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "msim_enable_sim"
+            }, 
+            {
+              "resource": "go_to_virtual_sim_title"
+            }, 
+            {
+              "category": "msim_setting_sim_info_editor_title", 
+              "resource": "msim_info_editor_name"
+            }, 
+            {
+              "category": "msim_setting_sim_info_editor_title", 
+              "resource": "msim_info_editor_number"
+            }, 
+            {
+              "category": "msim_setting_operator_network_title", 
+              "intent": {
+                "intent_class": "com.android.phone.settings.UserPLMNListPreference", 
+                "intent_package": "com.android.phone", 
+                "intent_action": "android.intent.action.MAIN"
+              }, 
+              "resource": "uplmn_list_setting_title"
+            }, 
+            {
+              "category": "msim_setting_operator_network_title", 
+              "is_checkbox": "true", 
+              "resource": "fiveg_sa_vice_switch_title"
+            }, 
+            {
+              "category": "wifi_call_setting", 
+              "is_checkbox": "true", 
+              "resource": "wificall_switch_title"
+            }, 
+            {
+              "category": "wifi_call_setting", 
+              "resource": "preferred_wificall_title"
+            }
+          ]
+        }, 
+        {
+          "category": "msim_setting_categery_title", 
+          "intent": {
+            "intent_class": "com.android.phone.settings.MultiSimInfoEditorActivity", 
+            "intent_package": "com.android.phone"
+          }, 
+          "resource": "sim_card_slot_2", 
+          "class": "com.android.phone.settings.search.tree.SimInfoSettingsTree", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "msim_enable_sim"
+            }, 
+            {
+              "resource": "go_to_virtual_sim_title"
+            }, 
+            {
+              "category": "msim_setting_sim_info_editor_title", 
+              "resource": "msim_info_editor_name"
+            }, 
+            {
+              "category": "msim_setting_sim_info_editor_title", 
+              "resource": "msim_info_editor_number"
+            }, 
+            {
+              "category": "msim_setting_operator_network_title", 
+              "intent": {
+                "intent_class": "com.android.phone.settings.UserPLMNListPreference", 
+                "intent_package": "com.android.phone", 
+                "intent_action": "android.intent.action.MAIN"
+              }, 
+              "resource": "uplmn_list_setting_title"
+            }, 
+            {
+              "category": "msim_setting_operator_network_title", 
+              "is_checkbox": "true", 
+              "resource": "fiveg_sa_vice_switch_title"
+            }, 
+            {
+              "category": "wifi_call_setting", 
+              "is_checkbox": "true", 
+              "resource": "wificall_switch_title"
+            }, 
+            {
+              "category": "wifi_call_setting", 
+              "resource": "preferred_wificall_title"
+            }
+          ]
+        }, 
+        {
+          "category": "msim_setting_categery_title", 
+          "resource": "cdma_lte_data_service"
+        }, 
+        {
+          "category": "msim_general_setting", 
+          "is_checkbox": "true", 
+          "resource": "data_enabled"
+        }, 
+        {
+          "category": "msim_general_setting", 
+          "is_checkbox": "true", 
+          "resource": "data_enable_always_warn"
+        }, 
+        {
+          "category": "msim_general_setting", 
+          "intent": {
+            "intent_class": "com.android.phone.settings.MiuiFiveGNetworkSetting", 
+            "intent_package": "com.android.phone"
+          }, 
+          "resource": "fiveg_network_title", 
+          "son": [
+            {
+              "category": "sim_fiveg_network_title", 
+              "is_checkbox": "true", 
+              "resource": "fiveg_switch_title"
+            }, 
+            {
+              "category": "sim_fiveg_network_title", 
+              "is_checkbox": "true", 
+              "resource": "fiveg_switch_title"
+            }
+          ]
+        }, 
+        {
+          "category": "msim_general_setting", 
+          "is_checkbox": "true", 
+          "resource": "volte_switch_title"
+        }, 
+        {
+          "category": "msim_general_setting", 
+          "is_checkbox": "true", 
+          "resource": "dual_4g_switch_title"
+        }, 
+        {
+          "category": "msim_general_setting", 
+          "intent": {
+            "intent_class": "com.miui.networkassistant.ui.activity.InternationalRoamingSettingActivity", 
+            "intent_package": "com.miui.securitycenter"
+          }, 
+          "resource": "international_roaming_setting"
+        }, 
+        {
+          "category": "msim_general_setting", 
+          "is_checkbox": "true", 
+          "resource": "international_roaming_setting"
+        }, 
+        {
+          "category": "msim_general_setting", 
+          "is_checkbox": "true", 
+          "resource": "always_enable_mms"
+        }, 
+        {
+          "category": "wifi_call_setting", 
+          "is_checkbox": "true", 
+          "resource": "wificall_switch_title"
+        }, 
+        {
+          "category": "wifi_call_setting", 
+          "resource": "preferred_wificall_title"
+        }, 
+        {
+          "resource": "sms_messages_title"
+        }, 
+        {
+          "is_checkbox": "true", 
+          "resource": "last_sim_callback_title"
+        }, 
+        {
+          "intent": {
+            "intent_class": "com.android.phone.settings.UserPLMNListPreference", 
+            "intent_package": "com.android.phone", 
+            "intent_action": "android.intent.action.MAIN"
+          }, 
+          "resource": "uplmn_list_setting_title"
+        }, 
+        {
+          "category": "china_mobile_palm_category", 
+          "intent": {
+            "intent_action": "miui.intent.action.YELLOWPAGE_CHINAMOBILE_PALM"
+          }, 
+          "resource": "china_mobile_palm_title"
+        }, 
+        {
+          "intent": {
+            "intent_class": "com.android.stk.StkMain", 
+            "intent_package": "com.android.stk", 
+            "intent_action": "android.intent.action.MAIN"
+          }, 
+          "resource": "stk_name"
+        }, 
+        {
+          "intent": {
+            "intent_class": "com.android.phone.settings.MiuiConfigureMobileSettings", 
+            "intent_package": "com.android.phone", 
+            "intent_action": "android.intent.action.MAIN"
+          }, 
+          "resource": "advanced_mobile_settings", 
+          "son": [
+            {
+              "category": "mobile_intelligent_connection_title", 
+              "is_checkbox": "true", 
+              "resource": "mobile_special_network_optimization_config_title"
+            }, 
+            {
+              "category": "mobile_intelligent_connection_title", 
+              "intent": {
+                "intent_class": "com.miui.geolocation.ui.settings.SwipingCardLocationListActivity", 
+                "intent_package": "com.miui.geolocation"
+              }, 
+              "resource": "mobile_geo_location_config_title"
+            }, 
+            {
+              "category": "mobile_intelligent_connection_title", 
+              "is_checkbox": "true", 
+              "resource": "fiveg_hosted_mode_title"
+            }, 
+            {
+              "category": "mobile_intelligent_connection_title", 
+              "is_checkbox": "true", 
+              "resource": "traffic_mode_switch_title"
+            }, 
+            {
+              "category": "mobile_intelligent_connection_title", 
+              "intent": {
+                "intent_class": "com.android.settings.wifi.linkturbo.WifiLinkTurboSettings", 
+                "intent_package": "com.android.settings"
+              }, 
+              "resource": "smart_multinetwork_acceleration_title"
+            }, 
+            {
+              "category": "mobile_network_dual_card_optimizationmobile_title", 
+              "is_checkbox": "true", 
+              "resource": "smart_dual_sim_title"
+            }, 
+            {
+              "category": "mobile_network_dual_card_optimizationmobile_title", 
+              "is_checkbox": "true", 
+              "resource": "vice_slot_volte_data_switch_title"
+            }, 
+            {
+              "category": "mobile_connection_management", 
+              "intent": {
+                "intent_class": "com.miui.networkassistant.ui.activity.InternationalRoamingSettingActivity", 
+                "intent_package": "com.miui.securitycenter"
+              }, 
+              "resource": "international_roaming_setting"
+            }, 
+            {
+              "category": "mobile_connection_management", 
+              "intent": {
+                "intent_class": "com.miui.networkassistant.ui.activity.NetworkDiagnosticsActivity", 
+                "intent_package": "com.miui.securitycenter"
+              }, 
+              "resource": "netcheck_title"
+            }, 
+            {
+              "category": "mobile_property", 
+              "resource": "mobile_advanced_nr_network_title"
+            }, 
+            {
+              "category": "mobile_property", 
+              "resource": "mobile_advanced_ip_address_title"
+            }, 
+            {
+              "category": "mobile_property", 
+              "resource": "mobile_advanced_dns_server_title"
+            }, 
+            {
+              "category": "mobile_property", 
+              "resource": "network_state_display_title"
+            }, 
+            {
+              "resource": "fiveg_network_mode_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "fiveg_sa_switch_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "fiveg_carrier_aggregation_title"
+            }
+          ]
+        }, 
+        {
+          "category": "sim_service_setting", 
+          "resource": "mi_mobile_settings_title"
+        }, 
+        {
+          "category": "sim_service_setting", 
+          "intent": {
+            "intent_class": "com.miui.mimobile.ui.MmRouterActivity", 
+            "intent_package": "com.miui.virtualsim", 
+            "intent_action": "com.miui.misim.ACTION_ROUTER"
+          }, 
+          "resource": "mi_sim_settings_title"
+        }, 
+        {
+          "category": "sim_service_setting", 
+          "intent": {
+            "intent_class": "com.miui.virtualsim.ui.MainActivity", 
+            "intent_package": "com.miui.virtualsim", 
+            "intent_action": "com.miui.virtualsim.action.OPEN_APP"
+          }, 
+          "resource": "sim_roaming_settings_title"
+        }
+      ], 
+      "intent": {
+        "intent_class": "com.android.phone.settings.MobileNetworkSettings", 
+        "intent_package": "com.android.phone", 
+        "intent_action": "android.intent.action.MAIN"
+      }, 
+      "keywords": "search_sim_management_title", 
+      "icon": "ic_settings_dualsim", 
+      "class": "com.android.phone.settings.search.tree.MobileNetworkSettingsTree", 
+      "second_space": "false"
+    }, 
+    {
+      "resource": "wifi_settings_title", 
+      "fragment": "com.android.settings.wifi.MiuiWifiSettings", 
+      "son": [
+        {
+          "is_checkbox": "true", 
+          "resource": "dual_wifi"
+        }, 
+        {
+          "is_checkbox": "true", 
+          "resource": "dual_wifi_auto_disable"
+        }, 
+        {
+          "resource": "wifi_data_usage"
+        }, 
+        {
+          "resource": "resetting_internet_text"
+        }, 
+        {
+          "resource": "condition_airplane_title"
+        }, 
+        {
+          "fragment": "com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2", 
+          "resource": "wifi_saved_access_points_label"
+        }, 
+        {
+          "keywords": "search_wifi_enable", 
+          "is_checkbox": "true", 
+          "resource": "wifi_enable"
+        }, 
+        {
+          "fragment": "com.android.settings.wifi.MiuiWifiAssistSettings", 
+          "resource": "wifi_assist", 
+          "son": [
+            {
+              "category": "wifi_network_optimization", 
+              "is_checkbox": "true", 
+              "resource": "wifi_assistant"
+            }, 
+            {
+              "category": "wifi_network_optimization", 
+              "is_checkbox": "true", 
+              "resource": "wifi_traffic_priority"
+            }, 
+            {
+              "category": "wifi_network_optimization", 
+              "resource": "wifi_traffic_priority_regular"
+            }, 
+            {
+              "category": "wifi_network_optimization", 
+              "resource": "wifi_traffic_priority_extreme"
+            }, 
+            {
+              "category": "wifi_network_optimization", 
+              "is_checkbox": "true", 
+              "resource": "wifi_wakeup", 
+              "icon": "ic_auto_wifi"
+            }, 
+            {
+              "category": "wifi_network_optimization", 
+              "is_checkbox": "true", 
+              "resource": "wifi_enhanced_handover"
+            }, 
+            {
+              "category": "wifi_multi_network_acceleration_title", 
+              "fragment": "com.android.settings.wifi.MiuiSlaveWifiSettings", 
+              "resource": "dual_wifi"
+            }, 
+            {
+              "category": "wifi_multi_network_acceleration_title", 
+              "intent": {
+                "intent_class": "com.android.settings.wifi.linkturbo.WifiLinkTurboSettings", 
+                "intent_package": "com.android.settings"
+              }, 
+              "resource": "wifi_multi_network_acceleration"
+            }
+          ]
+        }, 
+        {
+          "category": "more_settings_button", 
+          "keywords": "search_advanced_settings", 
+          "son": [
+            {
+              "category": "wifi_connection_management", 
+              "resource": "connect_mode", 
+              "feature": "support_choose_connect_mode"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "resource": "netcheck_title"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "fragment": "com.android.settings.wifi.MiuiSavedAccessPointsWifiSettings", 
+              "resource": "saved_wifi", 
+              "second_space": "false"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "resource": "wapi_cert_manage_title"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "is_checkbox": "true", 
+              "resource": "wifi_dialog_remind_type_title"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "resource": "select_ssid_type_title"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "resource": "gsm_to_wifi_connect_type_title"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "is_checkbox": "true", 
+              "resource": "wifi_priority_type_title"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "resource": "wifi_priority_settings_title"
+            }, 
+            {
+              "category": "wifi_other_connection_mode", 
+              "keywords": "search_wifi_menu_p2p", 
+              "resource": "wifi_menu_p2p", 
+              "intent": {
+                "intent_class": "com.android.settings.Settings$WifiP2pSettingsActivity", 
+                "intent_package": "com.android.settings"
+              }, 
+              "son": [
+                {
+                  "keywords": "search_device_name", 
+                  "fragment": "com.android.settings.MiuiDeviceNameEditFragment", 
+                  "resource": "device_name", 
+                  "second_space": "false"
+                }
+              ]
+            }
+          ], 
+          "resource": "advanced_settings", 
+          "fragment": "com.android.settings.wifi.MiuiConfigureWifiSettings"
+        }, 
+        {
+          "category": "more_settings_button", 
+          "intent": {
+            "intent_class": "com.android.settings.bluetooth.MiuiHeadsetActivityPlugin", 
+            "intent_package": "com.android.settings.bluetooth", 
+            "intent_action": "com.android.settings.bluetooth.MiuiHeadsetActivityPlugin"
+          }, 
+          "resource": "connect_help"
+        }, 
+        {
+          "category": "more_settings_button", 
+          "resource": "wifi_data_usage"
+        }, 
+        {
+          "category": "more_settings_button", 
+          "resource": "resetting_internet_text"
+        }, 
+        {
+          "category": "more_settings_button", 
+          "resource": "condition_airplane_title"
+        }, 
+        {
+          "fragment": "com.android.settings.wifi.ConfigureWifiSettings", 
+          "resource": "network_and_internet_preferences_title", 
+          "son": [
+            {
+              "category": "wifi_connection_management", 
+              "resource": "connect_mode", 
+              "feature": "support_choose_connect_mode"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "resource": "netcheck_title"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "fragment": "com.android.settings.wifi.MiuiSavedAccessPointsWifiSettings", 
+              "resource": "saved_wifi", 
+              "second_space": "false"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "resource": "wapi_cert_manage_title"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "is_checkbox": "true", 
+              "resource": "wifi_dialog_remind_type_title"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "resource": "select_ssid_type_title"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "resource": "gsm_to_wifi_connect_type_title"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "is_checkbox": "true", 
+              "resource": "wifi_priority_type_title"
+            }, 
+            {
+              "category": "wifi_connection_management", 
+              "resource": "wifi_priority_settings_title"
+            }, 
+            {
+              "category": "wifi_other_connection_mode", 
+              "keywords": "search_wifi_menu_p2p", 
+              "resource": "wifi_menu_p2p", 
+              "intent": {
+                "intent_class": "com.android.settings.Settings$WifiP2pSettingsActivity", 
+                "intent_package": "com.android.settings"
+              }, 
+              "son": [
+                {
+                  "keywords": "search_device_name", 
+                  "fragment": "com.android.settings.MiuiDeviceNameEditFragment", 
+                  "resource": "device_name", 
+                  "second_space": "false"
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "fragment": "com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2", 
+          "resource": "wifi_saved_access_points_label"
+        }
+      ], 
+      "intent": {
+        "intent_package": "com.android.settings", 
+        "intent_action": "android.settings.WIFI_SETTINGS"
+      }, 
+      "keywords": "search_wifi_settings_title", 
+      "class": "com.android.settings.search.tree.WifiSettingsTree", 
+      "icon": "ic_wifi_settings"
+    }, 
+    {
+      "resource": "bluetooth_settings_title", 
+      "fragment": "com.android.settings.bluetooth.MiuiBluetoothSettings", 
+      "son": [
+        {
+          "keywords": "search_bluetooth_enable", 
+          "is_checkbox": "true", 
+          "resource": "bluetooth_enable"
+        }, 
+        {
+          "resource": "bluetooth_version"
+        }, 
+        {
+          "keywords": "search_device_name", 
+          "resource": "device_name", 
+          "second_space": "false"
+        }, 
+        {
+          "fragment": "com.android.settings.bluetooth.BluetoothBroadcastAudioSettings", 
+          "resource": "bluetooth_broadcast_audio", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "bluetooth_broadcast_audio"
+            }, 
+            {
+              "resource": "ba_security_settings"
+            }, 
+            {
+              "resource": "auto_disable_broadcast_audio"
+            }
+          ]
+        }, 
+        {
+          "category": "bluetooth_other_settings", 
+          "keywords": "search_advanced_settings", 
+          "son": [
+            {
+              "category": "bluetooth_connect_settings", 
+              "is_checkbox": "true", 
+              "resource": "bluetooth_mi_fast_connect"
+            }, 
+            {
+              "category": "bluetooth_connect_settings", 
+              "fragment": "com.android.settings.bluetooth.BluetoothBlacklistFragment", 
+              "resource": "app_bluetooth_device_blacklist"
+            }, 
+            {
+              "category": "bluetooth_display_settings", 
+              "is_checkbox": "true", 
+              "resource": "bluetooth_show_devices_without_names"
+            }, 
+            {
+              "category": "bluetooth_display_settings", 
+              "is_checkbox": "true", 
+              "resource": "bt_show_notification_title"
+            }, 
+            {
+              "fragment": "com.android.settings.bluetooth.BluetoothEnableRecord", 
+              "resource": "app_enable_bluetooth_record"
+            }, 
+            {
+              "fragment": "com.android.settings.bluetooth.BluetoothTextWhiteListFragment", 
+              "resource": "add_text_app_name"
+            }, 
+            {
+              "category": "bluetooth_fastConnect_resource_load", 
+              "resource": "bluetooth_fastConnect_key_device_id"
+            }
+          ], 
+          "resource": "advanced_settings", 
+          "fragment": "com.android.settings.bluetooth.BluetoothAdvancedSettings"
+        }, 
+        {
+          "category": "bluetooth_other_settings", 
+          "intent": {
+            "intent_class": "com.android.settings.bluetooth.MiuiHeadsetActivityPlugin", 
+            "intent_package": "com.android.settings.bluetooth", 
+            "intent_action": "com.android.settings.bluetooth.MiuiHeadsetActivityPlugin"
+          }, 
+          "resource": "connect_help"
+        }
+      ], 
+      "keywords": "search_bluetooth_settings_title", 
+      "class": "com.android.settings.search.tree.BluetoothSettingsTree", 
+      "icon": "ic_bluetooth_settings"
+    }, 
+    {
+      "resource": "wifi_tether_settings_title", 
+      "son": [
+        {
+          "is_checkbox": "true", 
+          "resource": "wifi_tether_checkbox_text"
+        }, 
+        {
+          "keywords": "search_wifi_tether_configure_ap_text", 
+          "resource": "wifi_tether_configure_ap_text"
+        }, 
+        {
+          "intent": {
+            "intent_class": "com.miui.networkassistant.ui.activity.TetheringStatsSettingActivity", 
+            "intent_package": "com.miui.securitycenter"
+          }, 
+          "resource": "tether_data_usage_limit"
+        }, 
+        {
+          "is_checkbox": "true", 
+          "resource": "tether_auto_disable_title"
+        }, 
+        {
+          "is_checkbox": "true", 
+          "resource": "tether_use_wifi6_title"
+        }, 
+        {
+          "keywords": "search_usb_tethering_button_text", 
+          "is_checkbox": "true", 
+          "resource": "usb_tethering_button_text"
+        }, 
+        {
+          "keywords": "search_bluetooth_tether_checkbox_text", 
+          "is_checkbox": "true", 
+          "resource": "bluetooth_tether_checkbox_text"
+        }, 
+        {
+          "is_checkbox": "true", 
+          "resource": "ethernet_tether_checkbox_text"
+        }, 
+        {
+          "category": "tether_devices_management_title", 
+          "fragment": "com.android.settings.wifi.MiuiTetherDeviceSettings", 
+          "resource": "show_connected_devices_title", 
+          "son": [
+            {
+              "resource": "tether_devices_max_number"
+            }, 
+            {
+              "resource": "block_list_title"
+            }
+          ]
+        }
+      ], 
+      "intent": {
+        "intent_class": "com.android.settings.Settings$TetherSettingsActivity", 
+        "intent_package": "com.android.settings"
+      }, 
+      "keywords": "search_wifi_tether_settings_title", 
+      "icon": "ic_portable_wlan_hotspot_settings", 
+      "second_space": "false"
+    }, 
+    {
+      "resource": "vpn_settings_title", 
+      "fragment": "com.android.settings.vpn2.MiuiVpnSettings", 
+      "son": [
+        {
+          "keywords": "search_vpn_enable", 
+          "is_checkbox": "true", 
+          "resource": "vpn_enable"
+        }
+      ], 
+      "keywords": "search_vpn_settings_title", 
+      "icon": "ic_vpn", 
+      "second_space": "false"
+    }, 
+    {
+      "resource": "connection_and_sharing", 
+      "fragment": "com.android.settings.MiuiWirelessSettings", 
+      "son": [
+        {
+          "category": "interconnection", 
+          "intent": {
+            "intent_action": "com.miui.mishare.action.MiShareSettings"
+          }, 
+          "resource": "xiaomi_transfer"
+        }, 
+        {
+          "category": "interconnection", 
+          "resource": "screen_projection"
+        }, 
+        {
+          "category": "interconnection", 
+          "fragment": "com.android.settings.print.PrintSettingsFragment", 
+          "resource": "print_settings", 
+          "class": "com.android.settings.search.tree.PrintSettingsTree", 
+          "son": [
+            {
+              "category": "other", 
+              "resource": "system_print_service_help"
+            }
+          ]
+        }, 
+        {
+          "category": "interconnection", 
+          "intent": {
+            "intent_package": "com.miui.carlink", 
+            "intent_action": "miui.intent.action.UCAR_APP_SETTINGS"
+          }, 
+          "resource": "ucar_screen_projection_title"
+        }, 
+        {
+          "category": "interconnection", 
+          "resource": "launch_smarthome"
+        }, 
+        {
+          "category": "connection_control", 
+          "keywords": "search_airplane_mode", 
+          "is_checkbox": "true", 
+          "resource": "airplane_mode"
+        }, 
+        {
+          "category": "connection_control", 
+          "resource": "wifi_tether_settings_title", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "wifi_tether_checkbox_text"
+            }, 
+            {
+              "keywords": "search_wifi_tether_configure_ap_text", 
+              "resource": "wifi_tether_configure_ap_text"
+            }, 
+            {
+              "intent": {
+                "intent_class": "com.miui.networkassistant.ui.activity.TetheringStatsSettingActivity", 
+                "intent_package": "com.miui.securitycenter"
+              }, 
+              "resource": "tether_data_usage_limit"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "tether_auto_disable_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "tether_use_wifi6_title"
+            }, 
+            {
+              "keywords": "search_usb_tethering_button_text", 
+              "is_checkbox": "true", 
+              "resource": "usb_tethering_button_text"
+            }, 
+            {
+              "keywords": "search_bluetooth_tether_checkbox_text", 
+              "is_checkbox": "true", 
+              "resource": "bluetooth_tether_checkbox_text"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "ethernet_tether_checkbox_text"
+            }, 
+            {
+              "category": "tether_devices_management_title", 
+              "fragment": "com.android.settings.wifi.MiuiTetherDeviceSettings", 
+              "resource": "show_connected_devices_title", 
+              "son": [
+                {
+                  "resource": "tether_devices_max_number"
+                }, 
+                {
+                  "resource": "block_list_title"
+                }
+              ]
+            }
+          ], 
+          "intent": {
+            "intent_class": "com.android.settings.Settings$TetherSettingsActivity", 
+            "intent_package": "com.android.settings"
+          }, 
+          "keywords": "search_wifi_tether_settings_title", 
+          "second_space": "false"
+        }, 
+        {
+          "category": "connection_control", 
+          "resource": "vpn_settings_title", 
+          "fragment": "com.android.settings.vpn2.MiuiVpnSettings", 
+          "son": [
+            {
+              "keywords": "search_vpn_enable", 
+              "is_checkbox": "true", 
+              "resource": "vpn_enable"
+            }
+          ], 
+          "keywords": "search_vpn_settings_title", 
+          "second_space": "false"
+        }, 
+        {
+          "category": "connection_control", 
+          "intent": {
+            "intent_class": "com.android.settings.network.PrivateDnsSettingsActivity", 
+            "intent_package": "com.android.settings"
+          }, 
+          "resource": "select_private_dns_configuration_title"
+        }, 
+        {
+          "category": "connection_control", 
+          "keywords": "search_nfc_quick_toggle_title", 
+          "son": [
+            {
+              "keywords": "search_nfc_quick_toggle_title", 
+              "is_checkbox": "true", 
+              "resource": "nfc_quick_toggle_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "nfc_secure_settings_title"
+            }, 
+            {
+              "resource": "nfc_payment_default"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "nfc_dnd_mode_title"
+            }, 
+            {
+              "resource": "nfc_repair_title"
+            }
+          ], 
+          "resource": "nfc_quick_toggle_title", 
+          "fragment": "com.android.settings.nfc.MiuiNfcDetail"
+        }, 
+        {
+          "category": "nfc_category_title", 
+          "keywords": "search_nfc_quick_toggle_title", 
+          "is_checkbox": "true", 
+          "resource": "nfc_quick_toggle_title"
+        }, 
+        {
+          "category": "nfc_category_title", 
+          "is_checkbox": "true", 
+          "resource": "nfc_secure_settings_title"
+        }, 
+        {
+          "category": "nfc_category_title", 
+          "keywords": "search_nfc_se_route_title", 
+          "resource": "nfc_se_route_title", 
+          "feature": "support_se_route"
+        }, 
+        {
+          "category": "nfc_category_title", 
+          "fragment": "com.android.settings.nfc.PaymentSettings", 
+          "resource": "nfc_payment_settings_title", 
+          "son": [
+            {
+              "resource": "nfc_payment_default"
+            }, 
+            {
+              "resource": "nfc_payment_use_default"
+            }
+          ]
+        }, 
+        {
+          "category": "nfc_category_title", 
+          "resource": "nfc_repair_title"
+        }, 
+        {
+          "category": "nfc_category_title", 
+          "is_checkbox": "true", 
+          "resource": "nfc_dnd_mode_title"
+        }, 
+        {
+          "category": "other", 
+          "keywords": "search_wfd_settings_title", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "enable_wifi_display"
+            }
+          ], 
+          "resource": "wfd_settings_title", 
+          "fragment": "com.android.settings.wfd.MiuiWifiDisplaySettings"
+        }, 
+        {
+          "category": "other", 
+          "intent": {
+            "intent_class": "com.miui.networkassistant.ui.activity.TrafficSortedActivity", 
+            "intent_package": "com.miui.securitycenter"
+          }, 
+          "resource": "data_usage_summary_title", 
+          "class": "com.android.settings.search.tree.DataUsageSettingsTree"
+        }, 
+        {
+          "category": "other", 
+          "fragment": "com.android.settings.ResetNetwork", 
+          "resource": "reset_network_title"
+        }
+      ], 
+      "keywords": "search_connection_and_sharing", 
+      "class": "com.android.settings.search.tree.WirelessSettingsTree", 
+      "icon": "ic_device_connection"
+    }, 
+    {
+      "intent": {
+        "intent_class": "com.android.thememanager.activity.ThemeSettingsActivity", 
+        "intent_package": "com.android.thememanager"
+      }, 
+      "resource": "personalize_title", 
+      "icon": "com_android_thememanager"
+    }, 
+    {
+      "fragment": "com.android.settings.AodAndLockScreenSettings", 
+      "son": [
+        {
+          "category": "aod_name_wanxiang", 
+          "keywords": "search_ambient_display_screen_title", 
+          "is_checkbox": "true", 
+          "resource": "ambient_display_screen_title"
+        }, 
+        {
+          "category": "aod_name_wanxiang", 
+          "keywords": "search_ambient_display_screen_title", 
+          "resource": "ambient_display_screen_title", 
+          "intent": {
+            "intent_class": "com.miui.aod.settings.AodStyleCategoriesActivity", 
+            "intent_package": "com.miui.aod", 
+            "intent_action": "android.intent.action.MAIN"
+          }
+        }, 
+        {
+          "category": "aod_name_wanxiang", 
+          "intent": {
+            "intent_class": "com.miui.aod.settings.AodShowModeSettingActivity", 
+            "intent_package": "com.miui.aod", 
+            "intent_action": "android.intent.action.MAIN"
+          }, 
+          "resource": "aod_show_mode_title"
+        }, 
+        {
+          "category": "aod_name_wanxiang", 
+          "intent": {
+            "intent_class": "com.miui.aod.settings.AodStyleCategoriesActivity", 
+            "intent_package": "com.miui.aod", 
+            "intent_action": "android.intent.action.MAIN"
+          }, 
+          "resource": "aod_style_title"
+        }, 
+        {
+          "category": "aod_name_wanxiang", 
+          "intent": {
+            "intent_class": "com.miui.aod.settings.NotificationAnimationSelectActivity", 
+            "intent_package": "com.miui.aod", 
+            "intent_action": "android.intent.action.MAIN"
+          }, 
+          "resource": "aod_notification_style"
+        }, 
+        {
+          "category": "wakeup_and_sleep_settings_category_name", 
+          "keywords": "search_screen_timeout", 
+          "resource": "screen_timeout"
+        }, 
+        {
+          "category": "wakeup_and_sleep_settings_category_name", 
+          "is_checkbox": "true", 
+          "resource": "eye_gaze_title"
+        }, 
+        {
+          "category": "wakeup_and_sleep_settings_category_name", 
+          "keywords": "search_pick_up_gesture_wakeup_title", 
+          "is_checkbox": "true", 
+          "resource": "pick_up_gesture_wakeup_title"
+        }, 
+        {
+          "category": "wakeup_and_sleep_settings_category_name", 
+          "keywords": "search_gesture_wakeup_title", 
+          "is_checkbox": "true", 
+          "resource": "gesture_wakeup_title", 
+          "feature": "support_gesture_wakeup"
+        }, 
+        {
+          "category": "wakeup_and_sleep_settings_category_name", 
+          "keywords": "search_wakeup_for_keyguard_notification_title", 
+          "is_checkbox": "true", 
+          "resource": "wakeup_for_keyguard_notification_title"
+        }, 
+        {
+          "category": "wakeup_and_sleep_settings_category_name", 
+          "is_checkbox": "true", 
+          "resource": "smartcover_lock_or_unlock_screen_tittle", 
+          "feature": "support_hall_sensor"
+        }, 
+        {
+          "category": "wakeup_and_sleep_settings_category_name", 
+          "is_checkbox": "true", 
+          "resource": "lock_screen_after_fold_screen_title"
+        }, 
+        {
+          "category": "lock_screen_display_category_name", 
+          "resource": "lockscreen_magazine"
+        }, 
+        {
+          "category": "lock_screen_display_category_name", 
+          "resource": "choose_keyguard_clock_style"
+        }, 
+        {
+          "category": "lock_screen_display_category_name", 
+          "is_checkbox": "true", 
+          "resource": "show_charging_in_non_lockscreen_animation"
+        }, 
+        {
+          "category": "keyguard_security_setting_others", 
+          "is_checkbox": "true", 
+          "resource": "pref_volume_launch_camera_title", 
+          "feature": "!support_edge_touch_volume"
+        }, 
+        {
+          "category": "keyguard_security_setting_others", 
+          "keywords": "search_screen_on_proximity_sensor_title", 
+          "is_checkbox": "true", 
+          "resource": "screen_on_proximity_sensor_title"
+        }
+      ], 
+      "resource": "aod_and_lock_screen_settings_title", 
+      "class": "com.android.settings.search.tree.AodAndLockScreenSettingsTree", 
+      "icon": "ic_unlock_set_settings"
+    }, 
+    {
+      "resource": "display_settings", 
+      "fragment": "com.android.settings.MiuiDisplaySettings", 
+      "son": [
+        {
+          "category": "exterior", 
+          "intent": {
+            "intent_class": "com.android.settings.display.DarkModeActivity", 
+            "intent_package": "com.android.settings", 
+            "intent_action": "miui.settings.intent.action.DARK_MODE_TIME"
+          }, 
+          "resource": "dark_mode_time_settings", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "screen_dark_mode_time_title"
+            }, 
+            {
+              "resource": "dark_mode_day_night_mode_title"
+            }, 
+            {
+              "resource": "dark_mode_auto_time_title"
+            }, 
+            {
+              "resource": "paper_mode_start_time_title"
+            }, 
+            {
+              "resource": "paper_mode_end_time_title"
+            }
+          ]
+        }, 
+        {
+          "category": "exterior", 
+          "intent": {
+            "intent_class": "com.android.settings.display.DarkModeAppsSettingActivity", 
+            "intent_package": "com.android.settings", 
+            "intent_action": "miui.settings.intent.action.DARK_MODE_APPS"
+          }, 
+          "resource": "more_dark_mode_settings"
+        }, 
+        {
+          "category": "screen", 
+          "keywords": "search_brightness", 
+          "son": [
+            {
+              "resource": "screen_brightness"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "automatic_brightness"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "sunlight_mode"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "smooth_adjust_ligth"
+            }
+          ], 
+          "resource": "brightness", 
+          "fragment": "com.android.settings.display.BrightnessFragment"
+        }, 
+        {
+          "category": "screen", 
+          "resource": "screen_paper_mode_title", 
+          "fragment": "com.android.settings.display.OldPaperModeFragment", 
+          "feature": "support_screen_paper_mode", 
+          "son": [
+            {
+              "keywords": "search_screen_paper_mode_title", 
+              "is_checkbox": "true", 
+              "resource": "screen_paper_mode_title", 
+              "feature": "support_screen_paper_mode"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "screen_paper_mode_time_title"
+            }, 
+            {
+              "resource": "paper_mode_auto_twilight_title"
+            }, 
+            {
+              "resource": "paper_mode_customize_time_title"
+            }, 
+            {
+              "resource": "paper_mode_start_time_title"
+            }, 
+            {
+              "resource": "paper_mode_end_time_title"
+            }, 
+            {
+              "resource": "screen_paper_mode_adjust_level"
+            }
+          ], 
+          "keywords": "search_screen_paper_mode_title"
+        }, 
+        {
+          "category": "screen", 
+          "intent": {
+            "intent_action": "miui.intent.action.ANTI_FLICKER"
+          }, 
+          "resource": "dc_light_title", 
+          "second_space": "false"
+        }, 
+        {
+          "category": "screen", 
+          "fragment": "com.android.settings.display.PaperModeFragment", 
+          "resource": "advanced_screen_paper_mode_title", 
+          "son": [
+            {
+              "keywords": "search_screen_paper_mode_title", 
+              "is_checkbox": "true", 
+              "resource": "screen_paper_mode_title", 
+              "feature": "support_screen_paper_mode"
+            }, 
+            {
+              "fragment": "com.android.settings.display.ClassicProtectionFragment", 
+              "resource": "classic_mode_title", 
+              "son": [
+                {
+                  "category": "effect_preview", 
+                  "resource": "adjust_temperature_title"
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.display.PaperProtectionFragment", 
+              "resource": "paper_mode_title", 
+              "son": [
+                {
+                  "category": "effect_preview", 
+                  "resource": "texture_adjust_temperature_title"
+                }, 
+                {
+                  "category": "effect_preview", 
+                  "resource": "screen_paper_texture"
+                }, 
+                {
+                  "category": "effect_preview", 
+                  "resource": "paper_color_title"
+                }, 
+                {
+                  "category": "effect_preview", 
+                  "resource": "paper_mode_reset"
+                }
+              ]
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "auto_adjust_effect_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "screen_paper_mode_time_title"
+            }, 
+            {
+              "resource": "paper_mode_auto_twilight_title"
+            }, 
+            {
+              "resource": "paper_mode_customize_time_title"
+            }, 
+            {
+              "resource": "paper_mode_start_time_title"
+            }, 
+            {
+              "resource": "paper_mode_end_time_title"
+            }
+          ]
+        }, 
+        {
+          "category": "screen", 
+          "fragment": "com.android.settings.display.MonochromeModeFragment", 
+          "resource": "screen_monochrome_mode_title", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "screen_monochrome_mode_title"
+            }, 
+            {
+              "category": "screen_monochrome_mode_range_title", 
+              "resource": "screen_monochrome_mode_global_title"
+            }, 
+            {
+              "category": "screen_monochrome_mode_range_title", 
+              "resource": "screen_monochrome_mode_local_title"
+            }
+          ]
+        }, 
+        {
+          "category": "screen", 
+          "fragment": "com.android.settings.display.DarkUISettings", 
+          "is_checkbox": "true", 
+          "resource": "dark_ui_mode"
+        }, 
+        {
+          "category": "screen", 
+          "keywords": "search_screen_effect", 
+          "resource": "screen_effect", 
+          "fragment": "com.android.settings.display.ScreenEffectFragment"
+        }, 
+        {
+          "category": "screen", 
+          "fragment": "com.android.settings.display.ScreenResolutionManager", 
+          "resource": "screen_resolution_title", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "save_battery_mode"
+            }
+          ]
+        }, 
+        {
+          "category": "screen", 
+          "intent": {
+            "intent_action": "miui.intent.action.SCREEN_REFRESH"
+          }, 
+          "resource": "screen_fps_title"
+        }, 
+        {
+          "category": "screen", 
+          "intent": {
+            "intent_action": "miui.settings.intent.action.SCREEN_ENHANCE_ENGINE"
+          }, 
+          "resource": "screen_enhance_engine_title"
+        }, 
+        {
+          "category": "touch_title", 
+          "keywords": "search_touch_sensitive_title", 
+          "is_checkbox": "true", 
+          "resource": "touch_sensitive_title", 
+          "feature": "support_touch_sensitive"
+        }, 
+        {
+          "category": "title_font_current2", 
+          "resource": "title_font_current2"
+        }, 
+        {
+          "category": "title_font_current2", 
+          "keywords": "search_title_font_settings", 
+          "resource": "title_font_settings", 
+          "intent": {
+            "intent_class": "com.android.settings.Settings$PageLayoutActivity", 
+            "intent_package": "com.android.settings", 
+            "intent_action": "android.intent.action.MAIN"
+          }
+        }, 
+        {
+          "category": "display_animate_category", 
+          "is_checkbox": "true", 
+          "resource": "display_animate_title"
+        }, 
+        {
+          "category": "system", 
+          "fragment": "com.android.settings.display.VrDisplayPreferencePicker", 
+          "resource": "display_vr_pref_title"
+        }, 
+        {
+          "category": "system", 
+          "fragment": "com.android.settings.MaxAspectRatioSettings", 
+          "resource": "screen_max_aspect_ratio_title"
+        }, 
+        {
+          "category": "system", 
+          "keywords": "search_accelerometer_title", 
+          "is_checkbox": "true", 
+          "resource": "accelerometer_title"
+        }
+      ], 
+      "keywords": "search_display_settings", 
+      "class": "com.android.settings.search.tree.DisplaySettingsTree", 
+      "icon": "ic_display_settings"
+    }, 
+    {
+      "resource": "sound_vibrate_settings", 
+      "fragment": "com.android.settings.haptic.SoundHapticFragment", 
+      "son": [
+        {
+          "fragment": "com.android.settings.MiuiSoundSettings", 
+          "resource": "sound_settings_tab_sound", 
+          "son": [
+            {
+              "category": "volume_adjustment", 
+              "keywords": "search_silent_mode_title", 
+              "is_checkbox": "true", 
+              "resource": "silent_mode_title", 
+              "feature": "!support_new_silentmode"
+            }, 
+            {
+              "category": "volume_adjustment", 
+              "resource": "media_volume_option_title"
+            }, 
+            {
+              "category": "volume_adjustment", 
+              "keywords": "search_ring_volume_option_title", 
+              "resource": "ring_volume_option_title"
+            }, 
+            {
+              "category": "volume_adjustment", 
+              "resource": "alarm_volume_option_title"
+            }, 
+            {
+              "category": "volume_adjustment", 
+              "resource": "voice_assist_volume_option_title"
+            }, 
+            {
+              "category": "sound_category_call_ringtone_vibrate_title", 
+              "keywords": "search_ringtone_title", 
+              "resource": "ringtone_title", 
+              "second_space": "false"
+            }, 
+            {
+              "category": "sound_category_call_ringtone_vibrate_title", 
+              "keywords": "search_sms_received_sound_title", 
+              "resource": "sms_received_sound_title"
+            }, 
+            {
+              "category": "sound_category_call_ringtone_vibrate_title", 
+              "keywords": "search_calendar_sound_title", 
+              "resource": "calendar_sound_title"
+            }, 
+            {
+              "category": "sound_category_call_ringtone_vibrate_title", 
+              "keywords": "search_notification_sound_title", 
+              "resource": "notification_sound_title"
+            }, 
+            {
+              "category": "sound_category_call_ringtone_vibrate_title", 
+              "resource": "alarm_ringtone_title"
+            }, 
+            {
+              "category": "sound_category_call_ringtone_vibrate_title", 
+              "intent": {
+                "intent_class": "com.miui.misound.playervolume.SoundAssistActivity", 
+                "intent_package": "com.miui.misound"
+              }, 
+              "resource": "sound_assist_title"
+            }, 
+            {
+              "category": "sound_mode", 
+              "is_checkbox": "true", 
+              "resource": "ringer_mode_setting_title"
+            }, 
+            {
+              "category": "sound_mode", 
+              "is_checkbox": "true", 
+              "resource": "mute_media_sound_title"
+            }, 
+            {
+              "category": "zen_mode_title", 
+              "is_checkbox": "true", 
+              "resource": "zen_mode_title"
+            }, 
+            {
+              "category": "zen_mode_title", 
+              "is_checkbox": "true", 
+              "resource": "auto_silent"
+            }, 
+            {
+              "category": "zen_mode_title", 
+              "resource": "time_zen_mode_turn_on"
+            }, 
+            {
+              "category": "zen_mode_title", 
+              "resource": "time_zen_mode_turn_off"
+            }, 
+            {
+              "category": "zen_mode_title", 
+              "resource": "repeat_days_in_week"
+            }, 
+            {
+              "category": "zen_mode_title", 
+              "is_checkbox": "true", 
+              "resource": "zen_mode_screen_locked_only"
+            }, 
+            {
+              "category": "zen_mode_title", 
+              "resource": "vip_list"
+            }, 
+            {
+              "category": "zen_mode_title", 
+              "is_checkbox": "true", 
+              "resource": "repeat_call"
+            }, 
+            {
+              "category": "vibrate_category_title", 
+              "keywords": "search_vibrate_when_ringing_title", 
+              "is_checkbox": "true", 
+              "resource": "vibrate_when_ringing_title"
+            }, 
+            {
+              "category": "vibrate_category_title", 
+              "keywords": "search_vibrate_in_silent_title", 
+              "is_checkbox": "true", 
+              "resource": "vibrate_in_silent_title"
+            }, 
+            {
+              "category": "vibrate_category_title", 
+              "resource": "haptic_feedback_enable_title"
+            }, 
+            {
+              "category": "haptic_feedback_title", 
+              "is_checkbox": "true", 
+              "resource": "system_haptic_feedback"
+            }, 
+            {
+              "category": "haptic_feedback_title", 
+              "resource": "haptic_feedback_progress"
+            }, 
+            {
+              "intent": {
+                "intent_action": "miui.intent.action.INCALL_SHOW_PICKER"
+              }, 
+              "resource": "incall_show"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "ring_to_you"
+            }, 
+            {
+              "intent": {
+                "intent_action": "android.intent.action.VIEW"
+              }, 
+              "resource": "ring_to_you"
+            }, 
+            {
+              "fragment": "com.android.settings.sound.OtherSoundSettings", 
+              "resource": "other_sound_settings_title", 
+              "son": [
+                {
+                  "keywords": "search_dtmf_tone_enable_title", 
+                  "is_checkbox": "true", 
+                  "resource": "dtmf_tone_enable_title"
+                }, 
+                {
+                  "keywords": "search_sound_effects_enable_title", 
+                  "is_checkbox": "true", 
+                  "resource": "sound_effects_enable_title"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "lock_sound_effect_enable_title"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "backtouch_enable_title"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "has_screenshot_sound"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "app_uninstall_sounds_enable_title"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "delete_sound_effect"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "sound_stereo_mode_title"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "switch_power_sound"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "switch_bootup_sound"
+                }
+              ]
+            }, 
+            {
+              "intent": {
+                "intent_class": "com.miui.misound.HeadsetSettingsActivity", 
+                "intent_package": "com.miui.misound"
+              }, 
+              "resource": "headset_settings_title"
+            }, 
+            {
+              "category": "dock_settings", 
+              "resource": "dock_audio_settings_title"
+            }, 
+            {
+              "category": "dock_settings", 
+              "is_checkbox": "true", 
+              "resource": "dock_sounds_enable_title"
+            }, 
+            {
+              "category": "sound_work_settings", 
+              "is_checkbox": "true", 
+              "resource": "work_use_personal_sounds_title"
+            }, 
+            {
+              "category": "sound_work_settings", 
+              "resource": "work_ringtone_title"
+            }, 
+            {
+              "category": "sound_work_settings", 
+              "resource": "work_notification_ringtone_title"
+            }, 
+            {
+              "category": "sound_work_settings", 
+              "resource": "work_alarm_ringtone_title"
+            }
+          ]
+        }, 
+        {
+          "fragment": "com.android.settings.haptic.HapticFragment", 
+          "resource": "sound_settings_tab_haptic", 
+          "son": [
+            {
+              "resource": "natural_haptic"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "system_haptic_feedback"
+            }, 
+            {
+              "resource": "haptic_feedback_progress"
+            }, 
+            {
+              "category": "special_preview", 
+              "resource": "special_preview"
+            }, 
+            {
+              "category": "special_preview", 
+              "resource": "critical_feedback"
+            }, 
+            {
+              "category": "special_preview", 
+              "resource": "interesting_title"
+            }
+          ]
+        }
+      ], 
+      "intent": {
+        "intent_class": "com.android.settings.MiuiSoundSettingsActivity", 
+        "intent_package": "com.android.settings"
+      }, 
+      "class": "com.android.settings.search.tree.SoundSettingsTree", 
+      "icon": "ic_sound_settings"
+    }, 
+    {
+      "fragment": "com.android.settings.NotificationControlCenterSettings", 
+      "son": [
+        {
+          "category": "notification_settings", 
+          "keywords": "search_status_bar_settings_manage_notification", 
+          "resource": "status_bar_settings_manage_notification", 
+          "intent": {
+            "intent_extra": [
+              {
+                "name": "launch_source", 
+                "value": "1"
+              }, 
+              {
+                "name": "display_type", 
+                "value": "241"
+              }
+            ], 
+            "intent_package": "com.miui.notification", 
+            "intent_action": "android.settings.ALL_APPS_NOTIFICATION_SETTINGS"
+          }
+        }, 
+        {
+          "category": "notification_settings", 
+          "intent": {
+            "intent_extra": [
+              {
+                "name": "launch_source", 
+                "value": "1"
+              }, 
+              {
+                "name": "display_type", 
+                "value": "241"
+              }
+            ], 
+            "intent_package": "com.miui.notification", 
+            "intent_action": "miui.settings.NOTIFICATION_DISPLAY_SETTINGS"
+          }, 
+          "resource": "notification_display_settings"
+        }, 
+        {
+          "category": "notification_settings", 
+          "intent": {
+            "intent_class": "com.miui.aod.settings.NotificationAnimationSelectActivity", 
+            "intent_package": "com.miui.aod", 
+            "intent_action": "android.intent.action.MAIN"
+          }, 
+          "resource": "aod_notification_style"
+        }, 
+        {
+          "category": "control_center", 
+          "keywords": "search_control_center_style", 
+          "resource": "control_center_style", 
+          "class": "com.android.settings.search.tree.NotificationControlCenterSettingsTree", 
+          "fragment": "com.android.settings.controlcenter.ControlCenterSettings"
+        }, 
+        {
+          "category": "control_center", 
+          "fragment": "com.android.settings.ExpandCardActionsSettings", 
+          "resource": "expand_card_action", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "mi_smart_play_entry_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "mi_smart_hub_entry_title"
+            }, 
+            {
+              "resource": "smart_home_title"
+            }
+          ]
+        }, 
+        {
+          "category": "control_center", 
+          "fragment": "com.android.settings.LockScreenActionsSettings", 
+          "resource": "lock_screen_action", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "status_bar_settings_notification_bar"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "control_center"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "smart_home_title"
+            }
+          ]
+        }, 
+        {
+          "category": "control_center", 
+          "fragment": "com.android.settings.NotchStatusBarSettings", 
+          "resource": "status_bar_settings_status_bar", 
+          "class": "com.android.settings.search.tree.NotchStatusBarSettingsTree", 
+          "son": [
+            {
+              "category": "status_bar_settings_status_bar", 
+              "is_checkbox": "true", 
+              "resource": "show_notification_icon_title"
+            }, 
+            {
+              "category": "status_bar_settings_status_bar", 
+              "is_checkbox": "true", 
+              "resource": "show_network_speed_title"
+            }, 
+            {
+              "category": "status_bar_settings_status_bar", 
+              "is_checkbox": "true", 
+              "resource": "show_carrier_under_keyguard_title"
+            }, 
+            {
+              "category": "status_bar_settings_status_bar", 
+              "resource": "custom_carrier_title"
+            }, 
+            {
+              "category": "status_bar_settings_status_bar", 
+              "resource": "battery_indicator_title"
+            }, 
+            {
+              "category": "status_bar_settings_status_bar", 
+              "resource": "notification_shade_shortcut_title"
+            }, 
+            {
+              "category": "notch_settings", 
+              "fragment": "com.android.settings.InfinityDisplayStyleFragment", 
+              "resource": "notch_style_mod_title"
+            }, 
+            {
+              "category": "notch_settings", 
+              "is_checkbox": "true", 
+              "resource": "notch_force_black_title"
+            }, 
+            {
+              "category": "notch_settings", 
+              "is_checkbox": "true", 
+              "resource": "cutout_type_title"
+            }, 
+            {
+              "category": "notch_settings", 
+              "fragment": "com.android.settings.CutoutModeSettings", 
+              "resource": "cutout_mode_title"
+            }
+          ]
+        }
+      ], 
+      "resource": "notification_control_center", 
+      "icon": "ic_notification_center"
+    }, 
+    {
+      "intent": {
+        "intent_class": "com.miui.home.settings.MiuiHomeSettingActivity", 
+        "intent_package": "com.miui.home", 
+        "intent_action": "android.intent.action.MAIN"
+      }, 
+      "resource": "home_title", 
+      "icon": "ic_miui_home_settings"
+    }, 
+    {
+      "keywords": "search_wallpaper_settings_title", 
+      "intent": {
+        "intent_class": "com.android.thememanager.settings.superwallpaper.activity.WallpaperSettingSupportSuperWallpaperActivity", 
+        "intent_package": "com.android.thememanager"
+      }, 
+      "is_oldman": "false", 
+      "resource": "wallpaper_settings_title", 
+      "icon": "ic_wallpaper_settings"
+    }, 
+    {
+      "keywords": "search_theme_settings_title", 
+      "intent": {
+        "intent_class": "com.android.thememanager.activity.ThemeSettingsActivity", 
+        "intent_package": "com.android.thememanager"
+      }, 
+      "is_oldman": "false", 
+      "resource": "theme_settings_title", 
+      "icon": "com_android_thememanager"
+    }, 
+    {
+      "fragment": "com.android.settings.security.MiuiSecurityAndPrivacySettings", 
+      "son": [
+        {
+          "category": "unlock_mode_title", 
+          "resource": "password_unlock_title"
+        }, 
+        {
+          "category": "unlock_mode_title", 
+          "resource": "privacy_password_use_finger_dialog_title"
+        }, 
+        {
+          "category": "unlock_mode_title", 
+          "resource": "unlock_set_unlock_biometric_weak_title"
+        }, 
+        {
+          "category": "unlock_mode_title", 
+          "fragment": "com.android.settings.MiuiSecurityBluetoothSettingsFragment", 
+          "son": [
+            {
+              "category": "bluetooth_unlock_settings_toggle_title", 
+              "is_checkbox": "true", 
+              "resource": "bluetooth_unlock_settings_unlock_device"
+            }
+          ], 
+          "resource": "bluetooth_unlock_title", 
+          "second_space": "false"
+        }, 
+        {
+          "category": "lock_settings_profile_title", 
+          "is_checkbox": "true", 
+          "resource": "lock_settings_profile_unification_title"
+        }, 
+        {
+          "category": "lock_settings_profile_title", 
+          "resource": "unlock_set_unlock_launch_picker_title_profile"
+        }, 
+        {
+          "category": "other_password", 
+          "resource": "privacy_password_title"
+        }, 
+        {
+          "category": "other_password", 
+          "intent": {
+            "intent_class": "com.miui.contentcatcher.autofill.activitys.AutofillSettingActivity", 
+            "intent_package": "com.miui.contentcatcher"
+          }, 
+          "resource": "manage_password"
+        }, 
+        {
+          "resource": "cell_broadcast_settings"
+        }, 
+        {
+          "fragment": "com.android.settings.emergency.ui.SosSettings", 
+          "resource": "emergency_sos_title", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "miui_sos_enable_switch_title"
+            }, 
+            {
+              "resource": "miui_sos_contacts_add"
+            }, 
+            {
+              "category": "miui_sos_settings_category", 
+              "is_checkbox": "true", 
+              "resource": "miui_sos_calling_title"
+            }, 
+            {
+              "category": "miui_sos_settings_category", 
+              "resource": "miui_sos_play_voice"
+            }, 
+            {
+              "category": "miui_sos_settings_category", 
+              "is_checkbox": "true", 
+              "resource": "miui_sos_call_log_title"
+            }, 
+            {
+              "category": "miui_sos_settings_category", 
+              "is_checkbox": "true", 
+              "resource": "miui_sos_around_photo_title"
+            }, 
+            {
+              "category": "miui_sos_settings_category", 
+              "is_checkbox": "true", 
+              "resource": "miui_sos_around_voice_title"
+            }, 
+            {
+              "resource": "miui_sos_green_guard_title"
+            }, 
+            {
+              "resource": "sos_privacy_policy"
+            }, 
+            {
+              "resource": "sos_privacy_policy_revoke"
+            }, 
+            {
+              "resource": "miui_sos_pa_title"
+            }
+          ]
+        }, 
+        {
+          "keywords": "search_security_privacy_settings_title", 
+          "fragment": "com.android.settings.security.SecuritySettings", 
+          "resource": "security_privacy_settings_title", 
+          "class": "com.android.settings.search.tree.SecuritySettingsTree", 
+          "son": [
+            {
+              "fragment": "com.android.settings.applications.specialaccess.SpecialAccessSettings", 
+              "resource": "special_access", 
+              "son": [
+                {
+                  "fragment": "com.android.settings.applications.manageapplications.ManageApplications", 
+                  "resource": "manage_external_storage_title"
+                }, 
+                {
+                  "fragment": "com.android.settings.applications.specialaccess.interactacrossprofiles.InteractAcrossProfilesSettings", 
+                  "resource": "interact_across_profiles_title"
+                }, 
+                {
+                  "keywords": "search_manage_device_admin", 
+                  "fragment": "com.android.settings.applications.specialaccess.deviceadmin.DeviceAdminSettings", 
+                  "resource": "manage_device_admin", 
+                  "son": [
+                    {
+                      "resource": "no_device_admins"
+                    }
+                  ]
+                }, 
+                {
+                  "fragment": "com.android.settings.applications.manageapplications.ManageApplications", 
+                  "resource": "system_alert_window_settings"
+                }, 
+                {
+                  "fragment": "com.android.settings.notification.zen.ZenAccessSettings", 
+                  "resource": "manage_zen_access_title"
+                }, 
+                {
+                  "fragment": "com.android.settings.applications.manageapplications.ManageApplications", 
+                  "resource": "media_management_apps_title"
+                }, 
+                {
+                  "fragment": "com.android.settings.applications.manageapplications.ManageApplications", 
+                  "resource": "write_settings"
+                }, 
+                {
+                  "keywords": "search_manage_notification_access_title", 
+                  "fragment": "com.android.settings.notification.NotificationAccessSettings", 
+                  "resource": "manage_notification_access_title"
+                }, 
+                {
+                  "fragment": "com.android.settings.applications.specialaccess.pictureinpicture.PictureInPictureSettings", 
+                  "resource": "picture_in_picture_title"
+                }, 
+                {
+                  "fragment": "com.android.settings.applications.specialaccess.premiumsms.PremiumSmsAccess", 
+                  "resource": "premium_sms_access"
+                }, 
+                {
+                  "fragment": "com.android.settings.datausage.UnrestrictedDataAccess", 
+                  "resource": "unrestricted_data_saver"
+                }, 
+                {
+                  "fragment": "com.android.settings.applications.manageapplications.ManageApplications", 
+                  "resource": "install_other_apps"
+                }, 
+                {
+                  "fragment": "com.android.settings.applications.manageapplications.ManageApplications", 
+                  "resource": "alarms_and_reminders_title"
+                }, 
+                {
+                  "fragment": "com.android.settings.applications.manageapplications.ManageApplications", 
+                  "resource": "usage_access"
+                }, 
+                {
+                  "fragment": "com.android.settings.applications.specialaccess.vrlistener.VrListenerSettings", 
+                  "resource": "vr_listeners_title"
+                }, 
+                {
+                  "fragment": "com.android.settings.identification.OAIDSettings", 
+                  "resource": "device_oaid"
+                }, 
+                {
+                  "fragment": "com.android.settings.applications.manageapplications.ManageApplications", 
+                  "resource": "change_wifi_state_title"
+                }, 
+                {
+                  "resource": "special_access_more"
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.enterprise.EnterprisePrivacySettings", 
+              "resource": "enterprise_privacy_settings"
+            }, 
+            {
+              "fragment": "com.android.settings.enterprise.EnterprisePrivacySettings", 
+              "resource": "financed_privacy_settings"
+            }, 
+            {
+              "category": "sim_lock_settings_title", 
+              "intent": {
+                "intent_class": "com.android.settings.Settings$IccLockSettingsActivity", 
+                "intent_package": "com.android.settings", 
+                "intent_action": "android.intent.action.MAIN"
+              }, 
+              "resource": "sim_lock_settings_category", 
+              "son": [
+                {
+                  "is_checkbox": "true", 
+                  "resource": "sim_pin_toggle"
+                }, 
+                {
+                  "resource": "sim_pin_change"
+                }
+              ]
+            }, 
+            {
+              "category": "advanced_security_title", 
+              "fragment": "com.android.settings.security.EncryptionAndCredential", 
+              "resource": "encryption_and_credential_settings_title", 
+              "son": [
+                {
+                  "category": "crypt_keeper_settings_title", 
+                  "fragment": "com.android.settings.security.CryptKeeperSettings", 
+                  "resource": "crypt_keeper_encrypt_title"
+                }, 
+                {
+                  "category": "credentials_title", 
+                  "keywords": "search_trusted_credentials", 
+                  "resource": "trusted_credentials", 
+                  "fragment": "com.android.settings.TrustedCredentialsSettings"
+                }, 
+                {
+                  "category": "credentials_title", 
+                  "fragment": "com.android.settings.UserCredentialsSettings", 
+                  "resource": "user_credentials"
+                }, 
+                {
+                  "category": "credentials_title", 
+                  "keywords": "search_credentials_install", 
+                  "son": [
+                    {
+                      "intent": {
+                        "intent_class": "com.android.settings.security.InstallCaCertificateWarning", 
+                        "intent_package": "com.android.settings"
+                      }, 
+                      "resource": "ca_certificate"
+                    }
+                  ], 
+                  "resource": "credentials_install", 
+                  "fragment": "com.android.settings.security.InstallCertificateFromStorage"
+                }, 
+                {
+                  "category": "credentials_title", 
+                  "intent": {
+                    "intent_package": "com.android.settings", 
+                    "intent_action": "com.android.credentials.RESET"
+                  }, 
+                  "resource": "credentials_reset"
+                }, 
+                {
+                  "category": "credentials_title", 
+                  "fragment": "com.android.settings.security.CredentialManagementAppFragment", 
+                  "resource": "certificate_management_app"
+                }
+              ]
+            }, 
+            {
+              "category": "advanced_security_title", 
+              "fragment": "com.android.settings.security.WifiProtectionSettings", 
+              "resource": "wifi_protection_settings_title", 
+              "son": [
+                {
+                  "is_checkbox": "true", 
+                  "resource": "wifi_protection_settings_title"
+                }
+              ]
+            }, 
+            {
+              "category": "advanced_security_title", 
+              "intent": {
+                "intent_class": "com.android.phone.settings.FakeCellSettingsActivity", 
+                "intent_package": "com.android.phone", 
+                "intent_action": "miui.intent.action.FAKECELL"
+              }, 
+              "resource": "manage_fakecell_settings", 
+              "son": [
+                {
+                  "is_checkbox": "true", 
+                  "resource": "forbidden_fakecell"
+                }
+              ]
+            }, 
+            {
+              "category": "advanced_security_title", 
+              "fragment": "com.android.settings.security.trustagent.TrustAgentSettings", 
+              "resource": "manage_trust_agents"
+            }, 
+            {
+              "category": "advanced_security_title", 
+              "is_checkbox": "true", 
+              "resource": "show_password"
+            }, 
+            {
+              "category": "advanced_security_title", 
+              "is_checkbox": "true", 
+              "resource": "confirm_sim_deletion_title"
+            }, 
+            {
+              "category": "user_experience_program", 
+              "is_checkbox": "true", 
+              "resource": "user_experience_program_title"
+            }, 
+            {
+              "category": "user_experience_program", 
+              "intent": {
+                "intent_extra": [
+                  {
+                    "name": "android.intent.extra.LICENSE_TYPE", 
+                    "value": "8"
+                  }
+                ], 
+                "intent_action": "miui.intent.action.VIEW_LICENSE"
+              }, 
+              "resource": "user_experience_open_url"
+            }, 
+            {
+              "category": "user_experience_program", 
+              "intent": {
+                "intent_class": "com.android.settings.UsageAndDiagnosticsActivity", 
+                "intent_package": "com.android.settings"
+              }, 
+              "resource": "upload_debug_log_title", 
+              "son": [
+                {
+                  "is_checkbox": "true", 
+                  "resource": "upload_debug_log_title"
+                }
+              ]
+            }, 
+            {
+              "category": "user_experience_program", 
+              "intent": {
+                "intent_class": "com.android.settings.ad.AdServiceSettings", 
+                "intent_package": "com.android.settings"
+              }, 
+              "resource": "ad_service", 
+              "son": [
+                {
+                  "is_checkbox": "true", 
+                  "resource": "use_personalized_ad_service"
+                }
+              ]
+            }, 
+            {
+              "intent": {
+                "intent_class": "com.android.settings.HttpInvokeAppSettings", 
+                "intent_package": "com.android.settings"
+              }, 
+              "resource": "http_invoke_app", 
+              "son": [
+                {
+                  "is_checkbox": "true", 
+                  "resource": "http_invoke_app"
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "intent": {
+            "intent_class": "com.android.settings.privacy.PrivacyRevocationSettings", 
+            "intent_package": "com.android.settings"
+          }, 
+          "resource": "privacy_authorize_revoke_title", 
+          "class": "com.android.settings.search.tree.PrivacyAuthorizeSettingsTree"
+        }
+      ], 
+      "resource": "password_and_security", 
+      "class": "com.android.settings.search.tree.MiuiSecurityAndPrivacySettingsTree", 
+      "icon": "ic_security_settings_settings"
+    }, 
+    {
+      "intent": {
+        "intent_action": "miui.intent.action.SECURITY_CENTER_SETTINGS"
+      }, 
+      "resource": "security_center_title", 
+      "icon": "ic_security_center_settings"
+    }, 
+    {
+      "fragment": "com.android.settings.emergency.EmergencyDashboardFragment", 
+      "son": [
+        {
+          "fragment": "com.android.settings.emergency.EmergencyGestureSettings", 
+          "son": [
+            {
+              "resource": "emergency_gesture_screen_summary"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "emergency_gesture_sound_setting_title", 
+              "icon": "ic_hearing"
+            }, 
+            {
+              "category": "emergency_gesture_category_call_for_help_title", 
+              "resource": "emergency_gesture_call_for_help_title", 
+              "icon": "ic_call_grey_24dp"
+            }
+          ], 
+          "resource": "emergency_gesture_screen_title", 
+          "icon": "ic_emergency_gesture_24dp"
+        }, 
+        {
+          "intent": {
+            "intent_class": "com.android.cellbroadcastreceiver.CellBroadcastSettings", 
+            "intent_package": "@string/config_cell_broadcast_receiver_package", 
+            "intent_action": "android.intent.action.MAIN"
+          }, 
+          "resource": "cell_broadcast_settings"
+        }
+      ], 
+      "resource": "emergency_settings_preference_title", 
+      "class": "com.android.settings.search.tree.EmergencySettingsTree", 
+      "icon": "ic_settings_safety_emergency"
+    }, 
+    {
+      "intent": {
+        "intent_action": "miui.intent.action.PRIVACY_SETTINGS"
+      }, 
+      "resource": "privacy_protection", 
+      "icon": "ic_privacy_protection"
+    }, 
+    {
+      "intent": {
+        "intent_action": "miui.intent.action.POWER_MANAGER"
+      }, 
+      "resource": "power_usage_summary_title_new", 
+      "icon": "ic_battery_settings"
+    }, 
+    {
+      "fragment": "com.android.settings.applications.MiuiApplicationsSettings", 
+      "son": [
+        {
+          "keywords": "search_system_app_settings", 
+          "fragment": "com.android.settings.applications.SystemAppSettings", 
+          "resource": "system_app_settings", 
+          "class": "com.android.settings.search.tree.SystemAppSettingsTree"
+        }, 
+        {
+          "keywords": "search_applications_settings", 
+          "fragment": "com.android.settings.applications.ApplicationsContainer", 
+          "resource": "applications_settings", 
+          "class": "com.android.settings.search.tree.ApplicationsSettingsTree"
+        }, 
+        {
+          "intent": {
+            "intent_action": "com.miui.home.settings.action.ALL_HIDE_APP_SETTINGS"
+          }, 
+          "resource": "launcher_icon_management"
+        }, 
+        {
+          "intent": {
+            "intent_action": "com.miui.home.settings.action.DELETED_SYSTEM_APPS_SETTINGS"
+          }, 
+          "resource": "already_delete_system_app"
+        }, 
+        {
+          "keywords": "search_xspace", 
+          "intent": {
+            "intent_class": "com.miui.xspace.ui.activity.XSpaceSettingActivity", 
+            "intent_package": "com.miui.securitycore"
+          }, 
+          "is_oldman": "false", 
+          "resource": "xspace", 
+          "second_space": "false"
+        }, 
+        {
+          "keywords": "search_permission_manager", 
+          "fragment": "com.android.settings.permcenter.PermissonManagerContainer", 
+          "resource": "permission_manager", 
+          "intent": {
+            "intent_action": "miui.intent.action.LICENSE_MANAGER"
+          }
+        }, 
+        {
+          "keywords": "search_application_lock_name", 
+          "intent": {
+            "intent_action": "com.miui.securitycenter.action.TRANSITION"
+          }, 
+          "resource": "application_lock_name", 
+          "class": "com.android.settings.search.tree.ApplicationLockSettingsTree"
+        }, 
+        {
+          "intent": {
+            "intent_class": "com.android.settings.magicwindow.MagicWindowActivity", 
+            "intent_package": "com.android.settings"
+          }, 
+          "resource": "magic_window_name"
+        }, 
+        {
+          "intent": {
+            "intent_class": "com.miui.packageInstaller.ui.secure.SecureModeActivity", 
+            "intent_package": "com.miui.packageinstaller"
+          }, 
+          "resource": "safe_install_mode_settings"
+        }
+      ], 
+      "resource": "applications_settings_title", 
+      "icon": "ic_system_app_settings"
+    }, 
+    {
+      "resource": "other_advanced_settings", 
+      "fragment": "com.android.settings.personal.OtherPersonalSettings", 
+      "son": [
+        {
+          "keywords": "search_date_and_time_settings_title", 
+          "fragment": "com.android.settings.datetime.DateTimeSettings", 
+          "resource": "date_and_time_settings_title", 
+          "class": "com.android.settings.search.tree.DateTimeSettingsTree", 
+          "son": [
+            {
+              "category": "date_time_settings", 
+              "is_checkbox": "true", 
+              "resource": "date_time_auto"
+            }, 
+            {
+              "category": "date_time_settings", 
+              "resource": "date_time_set_date_title"
+            }, 
+            {
+              "category": "date_time_settings", 
+              "resource": "date_time_set_time_title"
+            }, 
+            {
+              "category": "timezone_settings", 
+              "is_checkbox": "true", 
+              "resource": "zone_auto_title"
+            }, 
+            {
+              "category": "timezone_settings", 
+              "fragment": "com.android.settings.datetime.timezone.TimeZoneSettings", 
+              "resource": "date_time_set_timezone", 
+              "son": [
+                {
+                  "resource": "date_time_select_region"
+                }, 
+                {
+                  "resource": "date_time_set_timezone_title"
+                }, 
+                {
+                  "resource": "date_time_select_fixed_offset_time_zones"
+                }
+              ]
+            }, 
+            {
+              "category": "timezone_settings", 
+              "is_checkbox": "true", 
+              "resource": "location_time_zone_detection_toggle_title"
+            }, 
+            {
+              "category": "select_time_format_category_title", 
+              "resource": "select_time_format_title"
+            }, 
+            {
+              "category": "dual_clock ", 
+              "is_checkbox": "true", 
+              "resource": "auto_dual_clock_title"
+            }, 
+            {
+              "category": "dual_clock ", 
+              "resource": "resident_timezone_summary"
+            }, 
+            {
+              "category": "dual_clock ", 
+              "resource": "dual_clock_hint"
+            }
+          ]
+        }, 
+        {
+          "keywords": "search_language_settings", 
+          "fragment": "com.android.settings.language.MiuiLanguageAndInputSettings", 
+          "resource": "language_settings", 
+          "class": "com.android.settings.search.tree.LanguageSettingsTree", 
+          "son": [
+            {
+              "category": "phone_language", 
+              "fragment": "com.android.settings.MiuiLocalePicker", 
+              "resource": "phone_language"
+            }, 
+            {
+              "category": "phone_language", 
+              "keywords": "search_user_dict_settings_title", 
+              "resource": "user_dict_settings_title"
+            }, 
+            {
+              "category": "keyboard_settings_category", 
+              "resource": "current_input_method"
+            }, 
+            {
+              "category": "keyboard_settings_category", 
+              "resource": "current_input_method"
+            }, 
+            {
+              "category": "keyboard_settings_category", 
+              "fragment": "com.android.settings.inputmethod.AvailableVirtualKeyboardFragment", 
+              "resource": "input_method_manage"
+            }, 
+            {
+              "category": "keyboard_settings_category", 
+              "fragment": "com.android.settings.inputmethod.SecurityIMESettingFragment", 
+              "resource": "security_input", 
+              "son": [
+                {
+                  "is_checkbox": "true", 
+                  "resource": "security_input_enable"
+                }
+              ]
+            }, 
+            {
+              "category": "keyboard_settings_category", 
+              "is_checkbox": "true", 
+              "resource": "keyboard_skin_follow_system_enable"
+            }, 
+            {
+              "category": "full_screen_keyboard_settings", 
+              "fragment": "com.android.settings.inputmethod.InputMethodFullScreenManager", 
+              "resource": "full_screen_keyboard_optimization", 
+              "son": [
+                {
+                  "category": "bottom_function_settings", 
+                  "resource": "left_function_key"
+                }, 
+                {
+                  "category": "bottom_function_settings", 
+                  "resource": "right_function_key"
+                }, 
+                {
+                  "category": "bottom_function_settings", 
+                  "resource": "middle_function_key"
+                }
+              ]
+            }, 
+            {
+              "category": "game_controller_settings_category", 
+              "is_checkbox": "true", 
+              "resource": "vibrate_input_devices"
+            }, 
+            {
+              "category": "language_and_input_for_work_category_title", 
+              "fragment": "com.android.settings.inputmethod.VirtualKeyboardFragment", 
+              "resource": "virtual_keyboards_for_work_title", 
+              "son": [
+                {
+                  "fragment": "com.android.settings.inputmethod.AvailableVirtualKeyboardFragment", 
+                  "resource": "add_virtual_keyboard", 
+                  "icon": "ic_add_24dp"
+                }
+              ]
+            }, 
+            {
+              "category": "other_input_settings", 
+              "resource": "spellcheckers_settings_title"
+            }, 
+            {
+              "category": "other_input_settings", 
+              "fragment": "com.android.settings.applications.defaultapps.DefaultAutofillPicker", 
+              "resource": "autofill_app"
+            }, 
+            {
+              "category": "other_input_settings", 
+              "resource": "tts_settings_title", 
+              "fragment": "com.android.settings.tts.TextToSpeechSettings", 
+              "son": [
+                {
+                  "fragment": "com.android.settings.tts.TtsEnginePreferenceFragment", 
+                  "resource": "tts_engine_preference_title"
+                }, 
+                {
+                  "resource": "tts_default_lang_title"
+                }, 
+                {
+                  "resource": "tts_default_rate_title"
+                }, 
+                {
+                  "resource": "tts_default_pitch_title"
+                }
+              ], 
+              "keywords": "search_tts_settings_title", 
+              "class": "com.android.settings.search.tree.TtsSettingsTree"
+            }, 
+            {
+              "category": "other_input_settings", 
+              "fragment": "com.android.settings.inputmethod.PhysicalKeyboardFragment", 
+              "resource": "keyboard_mouse_touch", 
+              "son": [
+                {
+                  "category": "keyboard_assistance_category", 
+                  "is_checkbox": "true", 
+                  "resource": "show_ime"
+                }, 
+                {
+                  "category": "keyboard_assistance_category", 
+                  "resource": "keyboard_shortcuts_helper"
+                }, 
+                {
+                  "category": "pointer_settings_category", 
+                  "keywords": "search_pointer_speed", 
+                  "resource": "pointer_speed"
+                }
+              ]
+            }, 
+            {
+              "category": "other_input_settings", 
+              "resource": "mechanical_ime"
+            }
+          ]
+        }, 
+        {
+          "fragment": "com.android.settings.locale.MiuiLocaleSettings", 
+          "resource": "locale_settings", 
+          "class": "com.android.settings.search.tree.LocaleSettingsTree"
+        }, 
+        {
+          "fragment": "com.android.settings.FullScreenDisplaySettings", 
+          "resource": "infinity_display_title", 
+          "class": "com.android.settings.search.tree.FullScreenDisplaySettingsTree", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "navigation_guide_hide_gesture_line_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "fsg_mistake_touch_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "navigation_guide_appswitch_anim_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "switch_screen_button_order"
+            }, 
+            {
+              "fragment": "com.android.settings.KeyShortcutSettingsFragment", 
+              "resource": "key_shortcut_settings_title", 
+              "class": "com.android.settings.search.tree.KeySettingsTree", 
+              "son": [
+                {
+                  "resource": "long_press_home_key"
+                }, 
+                {
+                  "resource": "long_press_menu_key"
+                }, 
+                {
+                  "resource": "long_press_back_key"
+                }, 
+                {
+                  "resource": "key_combination_power_home"
+                }, 
+                {
+                  "resource": "key_combination_power_menu"
+                }, 
+                {
+                  "resource": "key_combination_power_back"
+                }, 
+                {
+                  "resource": "menu_key"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "fp_nav_center_back_to_home_title", 
+                  "feature": "support_tap_fingerprint_sensor_to_home"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "single_key_use", 
+                  "feature": "support_tap_fingerprint_sensor_to_home"
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.AutoDisableScreenButtonsAppListSettings", 
+              "resource": "auto_disable_screenbuttons_title"
+            }, 
+            {
+              "category": "navigation_guide_settings", 
+              "resource": "navigation_guide_home_title", 
+              "icon": "navigation_bar_guide_home"
+            }, 
+            {
+              "category": "navigation_guide_settings", 
+              "resource": "navigation_guide_recent_title", 
+              "icon": "navigation_bar_guide_recent"
+            }, 
+            {
+              "category": "navigation_guide_settings", 
+              "resource": "navigation_guide_back_title", 
+              "icon": "navigation_bar_guide_back"
+            }, 
+            {
+              "category": "navigation_guide_settings", 
+              "resource": "navigation_guide_app_title", 
+              "icon": "navigation_bar_guide_app"
+            }, 
+            {
+              "category": "navigation_guide_settings", 
+              "resource": "navigation_guide_appswitch_title", 
+              "icon": "navigation_bar_guide_appswitch"
+            }, 
+            {
+              "category": "navigation_guide_settings", 
+              "resource": "navigation_guide_app_quick_switch_title", 
+              "icon": "navigation_bar_guide_appswitch"
+            }
+          ]
+        }, 
+        {
+          "intent": {
+            "intent_class": "com.android.settings.Settings$EdgeSettingsActivity", 
+            "intent_package": "com.android.settings", 
+            "intent_action": "android.intent.action.MAIN"
+          }, 
+          "resource": "edge_mode_state_title", 
+          "son": [
+            {
+              "resource": "default_suppression_title"
+            }, 
+            {
+              "resource": "strong_suppression_title"
+            }, 
+            {
+              "resource": "wake_suppression_title"
+            }, 
+            {
+              "resource": "diy_suppression_title"
+            }, 
+            {
+              "resource": "seek_bar_info"
+            }, 
+            {
+              "resource": "edge_mode_state_summary"
+            }
+          ]
+        }, 
+        {
+          "fragment": "com.android.settings.GestureShortcutSettingsFragment", 
+          "resource": "gesture_settings_title", 
+          "class": "com.android.settings.search.tree.GestureSettingsTree", 
+          "son": [
+            {
+              "fragment": "com.android.settings.GestureShortcutSettingsSelectFragment", 
+              "resource": "voice_assist", 
+              "class": "com.android.settings.search.tree.XiaoAiSettingsTree", 
+              "son": [
+                {
+                  "intent": {
+                    "intent_action": "com.miui.voiceassist.ACTION_AI_BUTTON_SETTINGS_GLOBAL"
+                  }, 
+                  "resource": "ai_button_title_global"
+                }, 
+                {
+                  "resource": "ai_button_title"
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.GestureShortcutSettingsSelectFragment", 
+              "resource": "launch_smarthome", 
+              "son": [
+                {
+                  "intent": {
+                    "intent_action": "com.miui.voiceassist.ACTION_AI_BUTTON_SETTINGS_GLOBAL"
+                  }, 
+                  "resource": "ai_button_title_global"
+                }, 
+                {
+                  "resource": "ai_button_title"
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.GestureShortcutSettingsSelectFragment", 
+              "resource": "launch_google_search", 
+              "son": [
+                {
+                  "intent": {
+                    "intent_action": "com.miui.voiceassist.ACTION_AI_BUTTON_SETTINGS_GLOBAL"
+                  }, 
+                  "resource": "ai_button_title_global"
+                }, 
+                {
+                  "resource": "ai_button_title"
+                }
+              ]
+            }, 
+            {
+              "keywords": "search_screen_shot", 
+              "fragment": "com.android.settings.GestureShortcutSettingsSelectFragment", 
+              "resource": "screen_shot", 
+              "son": [
+                {
+                  "intent": {
+                    "intent_action": "com.miui.voiceassist.ACTION_AI_BUTTON_SETTINGS_GLOBAL"
+                  }, 
+                  "resource": "ai_button_title_global"
+                }, 
+                {
+                  "resource": "ai_button_title"
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.GestureShortcutSettingsSelectFragment", 
+              "resource": "regional_screen_shot", 
+              "son": [
+                {
+                  "intent": {
+                    "intent_action": "com.miui.voiceassist.ACTION_AI_BUTTON_SETTINGS_GLOBAL"
+                  }, 
+                  "resource": "ai_button_title_global"
+                }, 
+                {
+                  "resource": "ai_button_title"
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.GestureShortcutSettingsSelectFragment", 
+              "resource": "mi_pay_summary", 
+              "son": [
+                {
+                  "intent": {
+                    "intent_action": "com.miui.voiceassist.ACTION_AI_BUTTON_SETTINGS_GLOBAL"
+                  }, 
+                  "resource": "ai_button_title_global"
+                }, 
+                {
+                  "resource": "ai_button_title"
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.GestureShortcutSettingsSelectFragment", 
+              "resource": "launch_camera", 
+              "son": [
+                {
+                  "intent": {
+                    "intent_action": "com.miui.voiceassist.ACTION_AI_BUTTON_SETTINGS_GLOBAL"
+                  }, 
+                  "resource": "ai_button_title_global"
+                }, 
+                {
+                  "resource": "ai_button_title"
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.GestureShortcutSettingsSelectFragment", 
+              "resource": "turn_on_torch", 
+              "son": [
+                {
+                  "intent": {
+                    "intent_action": "com.miui.voiceassist.ACTION_AI_BUTTON_SETTINGS_GLOBAL"
+                  }, 
+                  "resource": "ai_button_title_global"
+                }, 
+                {
+                  "resource": "ai_button_title"
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.GestureShortcutSettingsSelectFragment", 
+              "resource": "change_brightness", 
+              "son": [
+                {
+                  "intent": {
+                    "intent_action": "com.miui.voiceassist.ACTION_AI_BUTTON_SETTINGS_GLOBAL"
+                  }, 
+                  "resource": "ai_button_title_global"
+                }, 
+                {
+                  "resource": "ai_button_title"
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.GestureShortcutSettingsSelectFragment", 
+              "resource": "au_pay", 
+              "son": [
+                {
+                  "intent": {
+                    "intent_action": "com.miui.voiceassist.ACTION_AI_BUTTON_SETTINGS_GLOBAL"
+                  }, 
+                  "resource": "ai_button_title_global"
+                }, 
+                {
+                  "resource": "ai_button_title"
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.GestureShortcutSettingsSelectFragment", 
+              "resource": "google_pay", 
+              "son": [
+                {
+                  "intent": {
+                    "intent_action": "com.miui.voiceassist.ACTION_AI_BUTTON_SETTINGS_GLOBAL"
+                  }, 
+                  "resource": "ai_button_title_global"
+                }, 
+                {
+                  "resource": "ai_button_title"
+                }
+              ]
+            }, 
+            {
+              "category": "advanced_gesture", 
+              "fragment": "com.android.settings.BackTapSettingsFragment", 
+              "resource": "back_tap", 
+              "son": [
+                {
+                  "resource": "back_double_tap"
+                }, 
+                {
+                  "resource": "back_triple_tap"
+                }
+              ]
+            }, 
+            {
+              "category": "advanced_gesture", 
+              "resource": "fingerprint_double_tap"
+            }
+          ]
+        }, 
+        {
+          "fragment": "com.android.settings.KeySettings", 
+          "resource": "key_shortcut_settings_title", 
+          "class": "com.android.settings.search.tree.KeySettingsTree", 
+          "son": [
+            {
+              "intent": {
+                "intent_action": "com.miui.voiceassist.ACTION_AI_BUTTON_SETTINGS_GLOBAL"
+              }, 
+              "resource": "ai_button_title_global"
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "launch_camera", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "keywords": "search_screen_shot", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ], 
+              "resource": "screen_shot", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment"
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "regional_screen_shot", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "launch_voice_assistant", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "launch_google_search", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "launch_smarthome", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "go_to_sleep", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "turn_on_torch", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "close_app", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "split_screen", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "mi_pay", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "dump_log", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "show_menu", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "launch_recents", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "au_pay", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "key_gesture_function_shortcut", 
+              "fragment": "com.android.settings.KeySettingsSelectFragment", 
+              "resource": "google_pay", 
+              "son": [
+                {
+                  "category": "key_gesture_function_preview", 
+                  "resource": "key_gesture_function_preview"
+                }
+              ]
+            }, 
+            {
+              "category": "custom_gesture_title", 
+              "fragment": "com.android.settings.BackTapSettingsFragment", 
+              "resource": "back_tap", 
+              "son": [
+                {
+                  "resource": "back_double_tap"
+                }, 
+                {
+                  "resource": "back_triple_tap"
+                }
+              ]
+            }, 
+            {
+              "category": "screen_key_press", 
+              "resource": "menu_key"
+            }, 
+            {
+              "category": "key_position_cat", 
+              "resource": "screen_key_position", 
+              "feature": "support_screen_key_swap"
+            }, 
+            {
+              "category": "convenience_key_category_title", 
+              "is_checkbox": "true", 
+              "resource": "fp_nav_center_back_to_home_title", 
+              "feature": "support_tap_fingerprint_sensor_to_home"
+            }, 
+            {
+              "category": "convenience_key_category_title", 
+              "is_checkbox": "true", 
+              "resource": "single_key_use", 
+              "feature": "support_tap_fingerprint_sensor_to_home"
+            }, 
+            {
+              "category": "convenience_key_category_title", 
+              "fragment": "com.android.settings.AutoDisableScreenButtonsAppListSettings", 
+              "resource": "auto_disable_screenbuttons_title"
+            }, 
+            {
+              "category": "convenience_key_category_title", 
+              "is_checkbox": "true", 
+              "resource": "long_press_power_key_half_of_second"
+            }
+          ]
+        }, 
+        {
+          "keywords": "search_led_settings", 
+          "fragment": "com.android.settings.LedSettings", 
+          "resource": "led_settings", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "pref_button_light", 
+              "feature": "support_button_light"
+            }, 
+            {
+              "keywords": "search_button_light_timeout", 
+              "resource": "button_light_timeout", 
+              "feature": "support_button_light"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "battery_light_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "notification_pulse_title"
+            }, 
+            {
+              "resource": "notification_breathing_light_color_title", 
+              "feature": "support_led_color"
+            }, 
+            {
+              "resource": "notification_breathing_light_freq_title", 
+              "feature": "support_led_freq"
+            }, 
+            {
+              "resource": "incoming_call_breathing_light_color_title", 
+              "feature": "support_led_color"
+            }, 
+            {
+              "resource": "incoming_call_breathing_light_freq_title", 
+              "feature": "support_led_freq"
+            }, 
+            {
+              "resource": "mms_breathing_light_color_title", 
+              "feature": "support_led_color"
+            }, 
+            {
+              "resource": "mms_breathing_light_freq_title", 
+              "feature": "support_led_freq"
+            }
+          ]
+        }, 
+        {
+          "keywords": "search_touch_assistant", 
+          "intent": {
+            "intent_package": "com.miui.touchassistant", 
+            "intent_action": "miui.intent.action.TOUCH_ASSISTANT_SETTINGS"
+          }, 
+          "resource": "touch_assistant"
+        }, 
+        {
+          "keywords": "search_screen_recorder_title", 
+          "intent": {
+            "intent_class": "com.miui.screenrecorder.activity.ScreenRecorderSettingActivity", 
+            "intent_package": "com.miui.screenrecorder"
+          }, 
+          "resource": "screen_recorder_title"
+        }, 
+        {
+          "keywords": "search_handy_mode", 
+          "fragment": "com.android.settings.display.HandyModeFragment", 
+          "resource": "handy_mode", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "handy_mode_enable"
+            }
+          ]
+        }, 
+        {
+          "intent": {
+            "intent_action": "android.settings.SPEAKER_SETTINGS"
+          }, 
+          "resource": "speaker_clean"
+        }, 
+        {
+          "keywords": "search_accessibility_settings", 
+          "intent": {
+            "intent_class": "com.android.settings.accessibility.MiuiAccessibilitySettingsActivity", 
+            "intent_package": "com.android.settings"
+          }, 
+          "resource": "accessibility_settings", 
+          "class": "com.android.settings.search.tree.AccessibilitySettingsTree", 
+          "son": [
+            {
+              "fragment": "com.android.settings.accessibility.GeneralAccessibilitySettings", 
+              "resource": "accessibility_settings_tabs_general", 
+              "son": [
+                {
+                  "fragment": "com.android.settings.accessibility.AccessibilityButtonFragment", 
+                  "resource": "accessibility_button_title", 
+                  "son": [
+                    {
+                      "resource": "summary_placeholder"
+                    }, 
+                    {
+                      "is_checkbox": "true", 
+                      "resource": "accessibility_button_title"
+                    }, 
+                    {
+                      "resource": "accessibility_button_location_title"
+                    }, 
+                    {
+                      "resource": "accessibility_button_size_title"
+                    }, 
+                    {
+                      "is_checkbox": "true", 
+                      "resource": "accessibility_button_fade_title"
+                    }, 
+                    {
+                      "resource": "accessibility_button_opacity_title"
+                    }, 
+                    {
+                      "resource": "accessibility_button_description"
+                    }
+                  ]
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "accessibility_shortcut_service_on_lock_screen_title"
+                }, 
+                {
+                  "fragment": "com.android.settings.accessibility.InstalledAccessibilityService", 
+                  "resource": "user_installed_services_category_title"
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.accessibility.VisualAccessibilitySettings", 
+              "resource": "accessibility_settings_tabs_visual", 
+              "son": [
+                {
+                  "category": "screen_reader_category_title", 
+                  "fragment": "com.android.settings.accessibility.HapticSettingsFragment", 
+                  "resource": "accessibility_screen_reader_haptic_title", 
+                  "son": [
+                    {
+                      "is_checkbox": "true", 
+                      "resource": "accessibility_screen_reader_haptic_title"
+                    }, 
+                    {
+                      "is_checkbox": "true", 
+                      "resource": "haptic_switch_title"
+                    }, 
+                    {
+                      "resource": "haptic_experience"
+                    }, 
+                    {
+                      "intent": {
+                        "intent_class": "com.miui.accessibility.haptic.settings.detail.HapticDetailSettings", 
+                        "intent_package": "com.miui.accessibility"
+                      }, 
+                      "resource": "haptic_experience_details"
+                    }
+                  ]
+                }, 
+                {
+                  "category": "screen_reader_category_title", 
+                  "resource": "tts_settings_title", 
+                  "fragment": "com.android.settings.tts.TextToSpeechSettings", 
+                  "son": [
+                    {
+                      "fragment": "com.android.settings.tts.TtsEnginePreferenceFragment", 
+                      "resource": "tts_engine_preference_title"
+                    }, 
+                    {
+                      "resource": "tts_default_lang_title"
+                    }, 
+                    {
+                      "resource": "tts_default_rate_title"
+                    }, 
+                    {
+                      "resource": "tts_default_pitch_title"
+                    }
+                  ], 
+                  "keywords": "search_tts_settings_title", 
+                  "class": "com.android.settings.search.tree.TtsSettingsTree"
+                }, 
+                {
+                  "category": "display_category_title", 
+                  "intent": {
+                    "intent_class": "com.android.settings.display.ScreenZoomActivity", 
+                    "intent_package": "com.android.settings", 
+                    "intent_action": "android.intent.action.MAIN"
+                  }, 
+                  "resource": "screen_zoom_title"
+                }, 
+                {
+                  "category": "display_category_title", 
+                  "is_checkbox": "true", 
+                  "resource": "dark_ui_mode"
+                }, 
+                {
+                  "category": "display_category_title", 
+                  "keywords": "search_accessibility_screen_magnification_title", 
+                  "son": [
+                    {
+                      "fragment": "com.android.settings.accessibility.ToggleScreenMagnificationPreferenceFragment", 
+                      "resource": "accessibility_screen_magnification_gestures_title"
+                    }, 
+                    {
+                      "fragment": "com.android.settings.accessibility.ToggleScreenMagnificationPreferenceFragment", 
+                      "resource": "accessibility_screen_magnification_navbar_title"
+                    }
+                  ], 
+                  "resource": "accessibility_screen_magnification_title", 
+                  "fragment": "com.android.settings.accessibility.MagnificationPreferenceFragment"
+                }, 
+                {
+                  "category": "display_category_title", 
+                  "is_checkbox": "true", 
+                  "resource": "accessibility_disable_animations"
+                }, 
+                {
+                  "category": "experimental_category_title", 
+                  "is_checkbox": "true", 
+                  "resource": "accessibility_toggle_high_text_contrast_preference_title"
+                }, 
+                {
+                  "category": "experimental_category_title", 
+                  "is_checkbox": "true", 
+                  "resource": "toggle_auto_speaker_preference_title"
+                }, 
+                {
+                  "category": "experimental_category_title", 
+                  "keywords": "search_accessibility_display_daltonizer_preference_title", 
+                  "son": [
+                    {
+                      "resource": "summary_placeholder"
+                    }, 
+                    {
+                      "resource": "daltonizer_mode_deuteranomaly_title"
+                    }, 
+                    {
+                      "resource": "daltonizer_mode_protanomaly_title"
+                    }, 
+                    {
+                      "resource": "daltonizer_mode_tritanomaly_title"
+                    }, 
+                    {
+                      "resource": "daltonizer_mode_grayscale_title"
+                    }
+                  ], 
+                  "resource": "accessibility_display_daltonizer_preference_title", 
+                  "fragment": "com.android.settings.accessibility.ToggleDaltonizerPreferenceFragment"
+                }, 
+                {
+                  "category": "experimental_category_title", 
+                  "fragment": "com.android.settings.accessibility.ToggleColorInversionPreferenceFragment", 
+                  "resource": "accessibility_display_inversion_preference_title", 
+                  "son": [
+                    {
+                      "resource": "summary_placeholder"
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.accessibility.HearingAccessibilitySettings", 
+              "resource": "accessibility_settings_tabs_hearing", 
+              "son": [
+                {
+                  "category": "hearing_aids_category", 
+                  "resource": "miui_accessibility_asr_title"
+                }, 
+                {
+                  "category": "hearing_aids_category", 
+                  "intent": {
+                    "intent_action": "com.miui.intent.action.ENVIRONMENT_SOUND_RECOGNITION"
+                  }, 
+                  "resource": "environmental_speech_recognition"
+                }, 
+                {
+                  "resource": "live_caption_title"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "accessibility_toggle_primary_mono_title"
+                }, 
+                {
+                  "resource": "accessibility_toggle_primary_balance_title"
+                }, 
+                {
+                  "resource": "accessibility_hearingaid_title"
+                }, 
+                {
+                  "resource": "rtt_settings_title"
+                }, 
+                {
+                  "intent": {
+                    "intent_class": "com.miui.misound.mihearingassist.MiHearingAssistActivity", 
+                    "intent_package": "com.miui.misound"
+                  }, 
+                  "resource": "headphone_assisted_title"
+                }, 
+                {
+                  "keywords": "search_accessibility_captioning_title", 
+                  "fragment": "com.android.settings.accessibility.CaptionPropertiesFragment", 
+                  "resource": "accessibility_captioning_title", 
+                  "son": [
+                    {
+                      "resource": "summary_placeholder"
+                    }, 
+                    {
+                      "is_checkbox": "true", 
+                      "resource": "accessibility_caption_primary_switch_title"
+                    }, 
+                    {
+                      "fragment": "com.android.settings.accessibility.CaptionAppearanceFragment", 
+                      "resource": "captioning_caption_appearance_title", 
+                      "son": [
+                        {
+                          "resource": "summary_placeholder"
+                        }, 
+                        {
+                          "resource": "captioning_text_size"
+                        }, 
+                        {
+                          "resource": "captioning_preset"
+                        }, 
+                        {
+                          "category": "captioning_custom_options_title", 
+                          "resource": "captioning_typeface"
+                        }, 
+                        {
+                          "category": "captioning_custom_options_title", 
+                          "resource": "captioning_foreground_color"
+                        }, 
+                        {
+                          "category": "captioning_custom_options_title", 
+                          "resource": "captioning_foreground_opacity"
+                        }, 
+                        {
+                          "category": "captioning_custom_options_title", 
+                          "resource": "captioning_edge_type"
+                        }, 
+                        {
+                          "category": "captioning_custom_options_title", 
+                          "resource": "captioning_edge_color"
+                        }, 
+                        {
+                          "category": "captioning_custom_options_title", 
+                          "resource": "captioning_background_color"
+                        }, 
+                        {
+                          "category": "captioning_custom_options_title", 
+                          "resource": "captioning_background_opacity"
+                        }, 
+                        {
+                          "category": "captioning_custom_options_title", 
+                          "resource": "captioning_window_color"
+                        }, 
+                        {
+                          "category": "captioning_custom_options_title", 
+                          "resource": "captioning_window_opacity"
+                        }, 
+                        {
+                          "category": "captioning_custom_options_title", 
+                          "resource": "accessibility_caption_preference_summary"
+                        }
+                      ]
+                    }, 
+                    {
+                      "fragment": "com.android.settings.accessibility.CaptionMoreOptionsFragment", 
+                      "resource": "captioning_more_options_title", 
+                      "son": [
+                        {
+                          "keywords": "search_captioning_locale", 
+                          "resource": "captioning_locale"
+                        }, 
+                        {
+                          "resource": "accessibility_caption_preference_summary"
+                        }
+                      ]
+                    }, 
+                    {
+                      "resource": "accessibility_caption_preference_summary"
+                    }
+                  ]
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.accessibility.PhysicalAccessibilitySettings", 
+              "resource": "accessibility_settings_tabs_physical", 
+              "son": [
+                {
+                  "intent": {
+                    "intent_class": "com.miui.accessibility.voiceaccess.settings.VoiceAccessSettings", 
+                    "intent_package": "com.miui.accessibility"
+                  }, 
+                  "resource": "accessibility_voice_access_title"
+                }, 
+                {
+                  "category": "interaction_control_category_title", 
+                  "keywords": "search_accessibility_long_press_timeout_preference_title", 
+                  "resource": "accessibility_long_press_timeout_preference_title"
+                }, 
+                {
+                  "category": "interaction_control_category_title", 
+                  "fragment": "com.android.settings.accessibility.AccessibilityControlTimeoutPreferenceFragment", 
+                  "resource": "accessibility_setting_item_control_timeout_title", 
+                  "son": [
+                    {
+                      "resource": "summary_placeholder"
+                    }, 
+                    {
+                      "resource": "accessibility_timeout_default"
+                    }, 
+                    {
+                      "resource": "accessibility_timeout_10secs"
+                    }, 
+                    {
+                      "resource": "accessibility_timeout_30secs"
+                    }, 
+                    {
+                      "resource": "accessibility_timeout_1min"
+                    }, 
+                    {
+                      "resource": "accessibility_timeout_2mins"
+                    }, 
+                    {
+                      "resource": "accessibility_control_timeout_preference_summary"
+                    }
+                  ]
+                }, 
+                {
+                  "category": "interaction_control_category_title", 
+                  "is_checkbox": "true", 
+                  "resource": "accessibility_power_button_ends_call_prerefence_title"
+                }, 
+                {
+                  "category": "interaction_control_category_title", 
+                  "keywords": "search_accelerometer_title", 
+                  "is_checkbox": "true", 
+                  "resource": "accelerometer_title"
+                }, 
+                {
+                  "category": "interaction_control_category_title", 
+                  "fragment": "com.android.settings.accessibility.VibrationSettings", 
+                  "resource": "accessibility_vibration_settings_title", 
+                  "son": [
+                    {
+                      "fragment": "com.android.settings.accessibility.RingVibrationPreferenceFragment", 
+                      "resource": "accessibility_ring_vibration_title"
+                    }, 
+                    {
+                      "fragment": "com.android.settings.accessibility.NotificationVibrationPreferenceFragment", 
+                      "resource": "accessibility_notification_vibration_title"
+                    }, 
+                    {
+                      "fragment": "com.android.settings.accessibility.TouchVibrationPreferenceFragment", 
+                      "resource": "accessibility_touch_vibration_title"
+                    }
+                  ]
+                }, 
+                {
+                  "category": "input_device_category", 
+                  "fragment": "com.android.settings.accessibility.ToggleAutoclickPreferenceFragment", 
+                  "resource": "accessibility_autoclick_preference_title", 
+                  "son": [
+                    {
+                      "resource": "accessibility_autoclick_default_title"
+                    }, 
+                    {
+                      "resource": "accessibility_autoclick_short_title"
+                    }, 
+                    {
+                      "resource": "accessibility_autoclick_medium_title"
+                    }, 
+                    {
+                      "resource": "accessibility_autoclick_long_title"
+                    }, 
+                    {
+                      "resource": "accessibility_autoclick_custom_title"
+                    }, 
+                    {
+                      "resource": "accessibility_autoclick_description"
+                    }
+                  ]
+                }, 
+                {
+                  "category": "input_device_category", 
+                  "is_checkbox": "true", 
+                  "resource": "accessibility_toggle_large_pointer_icon_title"
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "fragment": "com.android.settings.personal.BeautyCameraSettings", 
+          "resource": "beauty_camera", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "beauty_camera_switch"
+            }
+          ]
+        }, 
+        {
+          "fragment": "com.android.settings.special.ExternalRamFragment", 
+          "resource": "external_ram_title", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "external_ram_title"
+            }
+          ]
+        }, 
+        {
+          "intent": {
+            "intent_package": "com.miui.securitycore", 
+            "intent_action": "miui.intent.action.ENTERPRISE_ACTIVATION"
+          }, 
+          "resource": "enterprise_mode"
+        }, 
+        {
+          "keywords": "search_development_settings_title", 
+          "fragment": "com.android.settings.development.DevelopmentSettingsDashboardFragment", 
+          "resource": "development_settings_title", 
+          "class": "com.android.settings.search.tree.DevelopmentSettingsTree", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "development_enable"
+            }, 
+            {
+              "fragment": "com.android.settings.bugreporthandler.BugReportHandlerPicker", 
+              "resource": "bug_report_handler_title"
+            }, 
+            {
+              "resource": "capture_system_heap_dump_title"
+            }, 
+            {
+              "intent": {
+                "intent_class": "com.android.settings.development.MiuiSetFullBackupPassword", 
+                "intent_package": "com.android.settings", 
+                "intent_action": "android.settings.privacy.SET_FULL_BACKUP_PASSWORD"
+              }, 
+              "resource": "local_backup_password_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "keep_screen_on"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "unlock_set_enter_system"
+            }, 
+            {
+              "resource": "hdcp_checking_title"
+            }, 
+            {
+              "resource": "bt_hci_snoop_log"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "oem_unlock_enable"
+            }, 
+            {
+              "fragment": "com.android.settings.webview.WebViewAppPicker", 
+              "resource": "select_webview_provider_title"
+            }, 
+            {
+              "resource": "bootloader_status"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "color_temperature"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "ota_disable_automatic_update"
+            }, 
+            {
+              "resource": "dsu_loader_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "demo_mode"
+            }, 
+            {
+              "fragment": "com.android.settings.development.qstile.DevelopmentTileConfigFragment", 
+              "resource": "quick_settings_developer_tiles"
+            }, 
+            {
+              "intent": {
+                "intent_action": "miui.intent.action.ANTI_FLICKER"
+              }, 
+              "resource": "low_dc_light_title"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "keywords": "search_enable_adb", 
+              "is_checkbox": "true", 
+              "resource": "enable_adb"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "resource": "clear_adb_keys"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "fragment": "com.android.settings.development.WirelessDebuggingFragment", 
+              "resource": "enable_adb_wireless", 
+              "son": [
+                {
+                  "is_checkbox": "true", 
+                  "resource": "enable_adb_wireless"
+                }, 
+                {
+                  "resource": "my_device_info_device_name_preference_title"
+                }, 
+                {
+                  "resource": "adb_wireless_ip_addr_preference_title"
+                }, 
+                {
+                  "resource": "adb_pair_method_qrcode_title", 
+                  "icon": "ic_scan_24dp"
+                }, 
+                {
+                  "resource": "adb_pair_method_code_title"
+                }
+              ]
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "usb_install_app"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "usb_adb_input"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "adb_authorization_timeout_title"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "enable_terminal_title"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "enable_verbose_vendor_logging"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "automatic_system_heap_dump_title"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "resource": "mock_location_app"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "debug_view_attributes"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "resource": "debug_app"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "wait_for_debugger"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "verify_apps_over_usb_title"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "art_verifier_for_debuggable_title"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "resource": "select_logd_size_title"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "resource": "select_logpersist_title"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "resource": "select_logd_level"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "camera_laser_sensor_switch"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "fragment": "com.android.settings.development.featureflags.FeatureFlagsDashboard", 
+              "resource": "feature_flags_dashboard_title", 
+              "son": [
+                {
+                  "category": "summary_placeholder", 
+                  "resource": "experimental_category_title"
+                }
+              ]
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "enable_gpu_debug_layers"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "fragment": "com.android.settings.development.graphicsdriver.GraphicsDriverDashboard", 
+              "resource": "graphics_driver_dashboard_title", 
+              "son": [
+                {
+                  "resource": "graphics_driver_footer_text"
+                }, 
+                {
+                  "resource": "graphics_driver_all_apps_preference_title"
+                }
+              ]
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "fragment": "com.android.settings.development.compat.PlatformCompatDashboard", 
+              "resource": "platform_compat_dashboard_title"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "show_refresh_rate"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "overlay_settings_title"
+            }, 
+            {
+              "category": "debug_debugging_category", 
+              "is_checkbox": "true", 
+              "resource": "force_high_refresh_rate_toggle"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "fragment": "com.android.settings.development.FiveGNrcaConfigFragment", 
+              "resource": "fiveg_nrca_switch_title"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "is_checkbox": "true", 
+              "resource": "fiveg_sa_vice_switch_title"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "is_checkbox": "true", 
+              "resource": "wifi_display_certification"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "is_checkbox": "true", 
+              "resource": "wifi_verbose_logging"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "is_checkbox": "true", 
+              "resource": "wifi_scan_throttling"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "is_checkbox": "true", 
+              "resource": "wifi_enhanced_mac_randomization"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "is_checkbox": "true", 
+              "resource": "mobile_data_always_on"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "is_checkbox": "true", 
+              "resource": "tethering_hardware_offload"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "fragment": "com.android.settings.connecteddevice.usb.UsbDefaultFragment", 
+              "resource": "usb_default_label"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "is_checkbox": "true", 
+              "resource": "bluetooth_disable_absolute_volume"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "is_checkbox": "true", 
+              "resource": "bluetooth_enable_page_scan"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "is_checkbox": "true", 
+              "resource": "bluetooth_enable_pts_test"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "is_checkbox": "true", 
+              "resource": "bluetooth_enable_gabeldorsche"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "is_checkbox": "true", 
+              "resource": "bluetooth_disable_a2dp_hw_offload"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "resource": "bluetooth_select_avrcp_version_string"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "resource": "bluetooth_select_map_version_string"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "is_checkbox": "true", 
+              "resource": "bluetooth_profile_a2dp_high_quality_unknown_codec"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "resource": "bluetooth_select_a2dp_codec_type"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "resource": "bluetooth_select_a2dp_codec_sample_rate"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "resource": "bluetooth_select_a2dp_codec_bits_per_sample"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "resource": "bluetooth_select_a2dp_codec_channel_mode"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "resource": "bluetooth_select_a2dp_codec_ldac_playback_quality"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "resource": "bluetooth_select_a2dp_codec_lhdc_playback_quality"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "resource": "bluetooth_select_a2dp_codec_lhdc_latency"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "resource": "bluetooth_select_a2dp_codec_aptxadaptive_mode"
+            }, 
+            {
+              "category": "debug_networking_category", 
+              "resource": "bluetooth_max_connected_audio_devices_string"
+            }, 
+            {
+              "category": "debug_input_category", 
+              "is_checkbox": "true", 
+              "resource": "show_touches"
+            }, 
+            {
+              "category": "debug_input_category", 
+              "is_checkbox": "true", 
+              "resource": "pointer_location"
+            }, 
+            {
+              "category": "debug_input_category", 
+              "is_checkbox": "true", 
+              "resource": "time_floating_window"
+            }, 
+            {
+              "category": "debug_drawing_category", 
+              "is_checkbox": "true", 
+              "resource": "show_screen_updates"
+            }, 
+            {
+              "category": "debug_drawing_category", 
+              "is_checkbox": "true", 
+              "resource": "debug_layout"
+            }, 
+            {
+              "category": "debug_drawing_category", 
+              "is_checkbox": "true", 
+              "resource": "force_rtl_layout_all_locales"
+            }, 
+            {
+              "category": "debug_drawing_category", 
+              "resource": "window_animation_scale_title"
+            }, 
+            {
+              "category": "debug_drawing_category", 
+              "resource": "transition_animation_scale_title"
+            }, 
+            {
+              "category": "debug_drawing_category", 
+              "resource": "animator_duration_scale_title"
+            }, 
+            {
+              "category": "debug_drawing_category", 
+              "resource": "overlay_display_devices_title"
+            }, 
+            {
+              "category": "debug_drawing_category", 
+              "resource": "developer_smallest_width"
+            }, 
+            {
+              "category": "debug_drawing_category", 
+              "resource": "display_cutout_emulation"
+            }, 
+            {
+              "category": "debug_hw_drawing_category", 
+              "is_checkbox": "true", 
+              "resource": "show_hw_screen_updates"
+            }, 
+            {
+              "category": "debug_hw_drawing_category", 
+              "is_checkbox": "true", 
+              "resource": "show_hw_layers_updates"
+            }, 
+            {
+              "category": "debug_hw_drawing_category", 
+              "resource": "debug_hw_overdraw"
+            }, 
+            {
+              "category": "debug_hw_drawing_category", 
+              "resource": "show_non_rect_clip"
+            }, 
+            {
+              "category": "debug_hw_drawing_category", 
+              "is_checkbox": "true", 
+              "resource": "hwui_force_dark_title"
+            }, 
+            {
+              "category": "debug_hw_drawing_category", 
+              "is_checkbox": "true", 
+              "resource": "window_blurs"
+            }, 
+            {
+              "category": "debug_hw_drawing_category", 
+              "is_checkbox": "true", 
+              "resource": "force_msaa"
+            }, 
+            {
+              "category": "debug_hw_drawing_category", 
+              "is_checkbox": "true", 
+              "resource": "disable_overlays"
+            }, 
+            {
+              "category": "debug_hw_drawing_category", 
+              "resource": "simulate_color_space"
+            }, 
+            {
+              "category": "media_category", 
+              "is_checkbox": "true", 
+              "resource": "usb_audio_disable_routing"
+            }, 
+            {
+              "category": "media_category", 
+              "fragment": "com.android.settings.development.transcode.TranscodeSettingsFragment", 
+              "resource": "transcode_settings_title", 
+              "son": [
+                {
+                  "is_checkbox": "true", 
+                  "resource": "transcode_user_control"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "transcode_enable_all"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "transcode_default"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "transcode_notification"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "transcode_disable_cache"
+                }
+              ]
+            }, 
+            {
+              "category": "debug_monitoring_category", 
+              "is_checkbox": "true", 
+              "resource": "strict_mode"
+            }, 
+            {
+              "category": "debug_monitoring_category", 
+              "resource": "track_frame_time"
+            }, 
+            {
+              "category": "debug_monitoring_category", 
+              "resource": "power_monitor_title"
+            }, 
+            {
+              "category": "debug_monitoring_category", 
+              "is_checkbox": "true", 
+              "resource": "speed_mode"
+            }, 
+            {
+              "category": "debug_applications_category", 
+              "is_checkbox": "true", 
+              "resource": "immediately_destroy_activities"
+            }, 
+            {
+              "category": "debug_applications_category", 
+              "resource": "app_process_limit_title"
+            }, 
+            {
+              "category": "debug_applications_category", 
+              "is_checkbox": "true", 
+              "resource": "show_first_crash_dialog"
+            }, 
+            {
+              "category": "debug_applications_category", 
+              "is_checkbox": "true", 
+              "resource": "show_all_anrs"
+            }, 
+            {
+              "category": "debug_applications_category", 
+              "resource": "cached_apps_freezer"
+            }, 
+            {
+              "category": "debug_applications_category", 
+              "is_checkbox": "true", 
+              "resource": "show_notification_channel_warnings"
+            }, 
+            {
+              "category": "debug_applications_category", 
+              "resource": "asst_importance_reset_title"
+            }, 
+            {
+              "category": "debug_applications_category", 
+              "is_checkbox": "true", 
+              "resource": "force_allow_on_external"
+            }, 
+            {
+              "category": "debug_applications_category", 
+              "is_checkbox": "true", 
+              "resource": "force_resizable_activities"
+            }, 
+            {
+              "category": "debug_applications_category", 
+              "is_checkbox": "true", 
+              "resource": "enable_freeform_support"
+            }, 
+            {
+              "category": "debug_applications_category", 
+              "is_checkbox": "true", 
+              "resource": "force_desktop_mode"
+            }, 
+            {
+              "category": "debug_applications_category", 
+              "is_checkbox": "true", 
+              "resource": "enable_non_resizable_multi_window"
+            }, 
+            {
+              "category": "debug_applications_category", 
+              "resource": "reset_shortcut_manager_throttling"
+            }, 
+            {
+              "category": "debug_autofill_category", 
+              "resource": "autofill_logging_level_title"
+            }, 
+            {
+              "category": "debug_autofill_category", 
+              "resource": "autofill_max_partitions"
+            }, 
+            {
+              "category": "debug_autofill_category", 
+              "resource": "autofill_max_visible_datasets"
+            }, 
+            {
+              "category": "debug_autofill_category", 
+              "resource": "autofill_reset_developer_options"
+            }, 
+            {
+              "category": "storage_category", 
+              "intent": {
+                "intent_class": "com.android.settings.development.storage.BlobInfoListView", 
+                "intent_package": "com.android.settings"
+              }, 
+              "resource": "shared_data_title"
+            }, 
+            {
+              "category": "location_category", 
+              "resource": "mock_location_app"
+            }, 
+            {
+              "category": "location_category", 
+              "is_checkbox": "true", 
+              "resource": "enable_gnss_raw_meas_full_tracking"
+            }, 
+            {
+              "category": "location_category", 
+              "is_checkbox": "true", 
+              "resource": "location_indicator_settings_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "miui_experience_optimization"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "dangerous_option_switch_title"
+            }, 
+            {
+              "keywords": "search_security_encryption_title", 
+              "fragment": "com.android.settings.EncryptionSettings", 
+              "son": [
+                {
+                  "keywords": "search_security_encryption_title", 
+                  "is_checkbox": "true", 
+                  "resource": "security_encryption_title", 
+                  "second_space": "false"
+                }
+              ], 
+              "resource": "security_encryption_title", 
+              "second_space": "false"
+            }, 
+            {
+              "category": "secondspace_category", 
+              "resource": "secondspace_delete_space_title"
+            }
+          ]
+        }, 
+        {
+          "fragment": "com.android.settings.OtgSettings", 
+          "resource": "otg_settings", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "otg_button"
+            }
+          ]
+        }
+      ], 
+      "keywords": "search_other_advanced_settings", 
+      "class": "com.android.settings.search.tree.OtherPersonalSettingsTree", 
+      "icon": "ic_other_advanced_settings"
+    }, 
+    {
+      "intent": {
+        "intent_action": "miui.intent.action.APP_SETTINGS"
+      }, 
+      "resource": "voice_assist", 
+      "class": "com.android.settings.search.tree.XiaoAiSettingsTree", 
+      "icon": "xiaoai"
+    }, 
+    {
+      "intent": {
+        "intent_action": "android.intent.action.VIEW"
+      }, 
+      "resource": "wallet_header_title", 
+      "icon": "wallet_icon"
+    }, 
+    {
+      "fragment": "com.android.settings.usagestats.UsageStatsMainFragment", 
+      "resource": "usage_state_app_timer", 
+      "icon": "ic_app_timer"
+    }, 
+    {
+      "fragment": "com.android.settings.special.OtherSpecialFeatureSettings", 
+      "son": [
+        {
+          "resource": "game_booster_title"
+        }, 
+        {
+          "intent": {
+            "intent_package": "com.miui.securitycenter", 
+            "intent_action": "com.miui.gamebooster.action.VIDEOBOX_SETTINGS"
+          }, 
+          "resource": "video_tool_box_title"
+        }, 
+        {
+          "intent": {
+            "intent_package": "com.miui.securitycenter", 
+            "intent_action": "com.miui.gamebooster.action.ACCESS_BEAUTY"
+          }, 
+          "resource": "beauty_fc_assistant"
+        }, 
+        {
+          "intent": {
+            "intent_package": "com.miui.contentextension", 
+            "intent_action": "com.miui.contentextension.action.TAPLUS_SETTINGS"
+          }, 
+          "resource": "taplus_title", 
+          "class": "com.android.settings.search.tree.TaplusSettingsTree"
+        }, 
+        {
+          "intent": {
+            "intent_package": "com.miui.securitycenter", 
+            "intent_action": "miui.intent.action.QUICK_REPLY_SETTINGS"
+          }, 
+          "resource": "quick_reply_title"
+        }, 
+        {
+          "fragment": "com.android.settings.freeform.FreeformGuideSettings", 
+          "resource": "freeform_guide_settings", 
+          "son": [
+            {
+              "intent": {
+                "intent_package": "com.miui.securitycenter", 
+                "intent_action": "com.miui.dock.ACTION_SETTINGS"
+              }, 
+              "resource": "gd_setting_title"
+            }, 
+            {
+              "category": "operation_guide_title", 
+              "resource": "multi_window_cvw_title", 
+              "icon": "multi_window_cvw"
+            }, 
+            {
+              "category": "operation_guide_title", 
+              "resource": "multi_window_cvw_title", 
+              "icon": "multi_window_cvw"
+            }, 
+            {
+              "category": "operation_guide_title", 
+              "resource": "freeform_guide_notification_drop_down_title", 
+              "icon": "freeform_guide_notification_drop_down"
+            }, 
+            {
+              "category": "operation_guide_title", 
+              "resource": "freeform_guide_move_title", 
+              "icon": "freeform_guide_move"
+            }, 
+            {
+              "category": "operation_guide_title", 
+              "resource": "freeform_guide_to_sidehide_title", 
+              "icon": "freeform_guide_to_sidehide"
+            }, 
+            {
+              "category": "operation_guide_title", 
+              "resource": "freeform_guide_drop_down_to_fullscreen_title", 
+              "icon": "freeform_guide_drop_down_to_fullscreen"
+            }, 
+            {
+              "category": "operation_guide_title", 
+              "resource": "freeform_guide_move_to_small_freeform_window_title", 
+              "icon": "freeform_guide_move_to_small_freeform_window"
+            }, 
+            {
+              "category": "operation_guide_title", 
+              "resource": "freeform_guide_slide_to_small_freeform_title", 
+              "icon": "freeform_guide_slide_to_small_freeform"
+            }, 
+            {
+              "category": "operation_guide_title", 
+              "resource": "freeform_guide_slide_to_small_freeform_title", 
+              "icon": "freeform_guide_slide_to_small_freeform_global"
+            }
+          ]
+        }, 
+        {
+          "keywords": "search_do_not_disturb_mode", 
+          "intent": {
+            "intent_action": "android.settings.ZEN_MODE_SETTINGS"
+          }, 
+          "resource": "do_not_disturb_mode", 
+          "feature": "!support_new_silentmode", 
+          "son": [
+            {
+              "keywords": "search_dndm_open", 
+              "is_checkbox": "true", 
+              "resource": "dndm_open"
+            }, 
+            {
+              "category": "dndm_auto_setting_group", 
+              "keywords": "search_dndm_auto_button_title", 
+              "is_checkbox": "true", 
+              "resource": "dndm_auto_button_title"
+            }, 
+            {
+              "category": "dndm_auto_setting_group", 
+              "keywords": "search_dndm_auto_time_setting", 
+              "resource": "dndm_auto_time_setting"
+            }, 
+            {
+              "category": "zen_mode_important_category", 
+              "keywords": "search_dndm_vip_call_setting_title", 
+              "resource": "dndm_vip_call_setting_title"
+            }, 
+            {
+              "category": "zen_mode_important_category", 
+              "keywords": "search_dndm_alarm_content", 
+              "resource": "dndm_alarm_content"
+            }, 
+            {
+              "category": "zen_mode_important_category", 
+              "keywords": "search_dndm_repeated_call_setting_title", 
+              "is_checkbox": "true", 
+              "resource": "dndm_repeated_call_setting_title"
+            }
+          ]
+        }, 
+        {
+          "keywords": "search_pref_edge_handgrip", 
+          "fragment": "com.android.settings.EdgeModeSettings", 
+          "resource": "pref_edge_handgrip", 
+          "feature": "support_edge_handgrip", 
+          "son": [
+            {
+              "resource": "edge_mode_back"
+            }, 
+            {
+              "resource": "edge_mode_clean"
+            }, 
+            {
+              "resource": "edge_mode_photo"
+            }
+          ]
+        }, 
+        {
+          "fragment": "com.android.settings.colorlamp.ColorLampSettings", 
+          "resource": "color_lamp_title", 
+          "son": [
+            {
+              "is_checkbox": "true", 
+              "resource": "color_lamp_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "color_lamp_incall_pulse_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "color_lamp_battery_title"
+            }, 
+            {
+              "is_checkbox": "true", 
+              "resource": "color_lamp_notification_pulse_title"
+            }, 
+            {
+              "fragment": "com.android.settings.NotificationAppListSettings", 
+              "resource": "color_lamp_applications_title"
+            }
+          ]
+        }, 
+        {
+          "fragment": "com.android.settings.popup.PopupSettings", 
+          "resource": "popup_title"
+        }, 
+        {
+          "fragment": "com.android.settings.slider.SliderDisplaySettings", 
+          "resource": "slider_title"
+        }, 
+        {
+          "fragment": "com.android.settings.colorled.ColorLedSettings", 
+          "resource": "color_led_title"
+        }, 
+        {
+          "keywords": "search_second_space", 
+          "intent": {
+            "intent_class": "com.miui.securityspace.ui.activity.PrivateSpaceMainActivity", 
+            "intent_package": "com.miui.securitycore"
+          }, 
+          "resource": "second_space", 
+          "class": "com.android.settings.search.tree.SecondSpaceSettingsTree", 
+          "is_oldman": "false"
+        }, 
+        {
+          "intent": {
+            "intent_class": "com.miui.child.home.kidspace.activity.KidModeActivity", 
+            "intent_package": "com.miui.securityadd"
+          }, 
+          "resource": "kid_space_settings"
+        }, 
+        {
+          "fragment": "com.android.settings.MiuiLabSettings", 
+          "resource": "miui_lab_settings", 
+          "class": "com.android.settings.search.tree.MiuiLabSettingsTree", 
+          "son": [
+            {
+              "category": "miui_lab_features", 
+              "resource": "miui_lab_drive_mode_title", 
+              "icon": "ic_drive_mode"
+            }, 
+            {
+              "category": "miui_lab_features", 
+              "resource": "miui_lab_aiasst_call_screen_title", 
+              "icon": "ic_aiasst_call_screen"
+            }, 
+            {
+              "category": "miui_lab_features", 
+              "is_checkbox": "true", 
+              "resource": "miui_lab_ai_preload_title", 
+              "icon": "ic_ai_preloading"
+            }, 
+            {
+              "category": "miui_lab_features", 
+              "is_checkbox": "true", 
+              "resource": "miui_lab_gesture_title", 
+              "icon": "ic_lab_gesture"
+            }, 
+            {
+              "category": "miui_lab_features", 
+              "fragment": "com.android.settings.freeform.FlashBackSettings", 
+              "son": [
+                {
+                  "is_checkbox": "true", 
+                  "resource": "flashback_open_switch_title"
+                }, 
+                {
+                  "is_checkbox": "true", 
+                  "resource": "flashback_background_start_switch_title"
+                }
+              ], 
+              "resource": "flashback_title", 
+              "icon": "flashback_icon"
+            }, 
+            {
+              "category": "miui_lab_features", 
+              "resource": "voip_assistant_settings", 
+              "icon": "ic_voip_assistant_screen"
+            }
+          ]
+        }, 
+        {
+          "intent": {
+            "intent_action": "miui.intent.action.PRIVACY_LAB_ACTIVITY"
+          }, 
+          "resource": "privacy_lab_settings"
+        }, 
+        {
+          "intent": {
+            "intent_action": "com.xiaomi.action.ENTER_ELDERLY_MODE"
+          }, 
+          "resource": "oldman_mode_settings"
+        }, 
+        {
+          "fragment": "com.android.settings.colorgameled.ColorGameLedSettings", 
+          "resource": "color_game_led_title"
+        }, 
+        {
+          "intent": {
+            "intent_class": "com.mi.healthglobal.HeartrateHomeActivity", 
+            "intent_package": "com.mi.healthglobal"
+          }, 
+          "resource": "title_special_features_health_global"
+        }, 
+        {
+          "fragment": "com.android.settings.shoulderkey.ShoulderKeySettings", 
+          "resource": "shoulder_key_settings", 
+          "class": "com.android.settings.search.tree.ShoulderKeySettingsTree", 
+          "son": [
+            {
+              "fragment": "com.android.settings.shoulderkey.SoundEffectSettings", 
+              "resource": "shoulder_key_sound_settings", 
+              "son": [
+                {
+                  "is_checkbox": "true", 
+                  "resource": "shoulder_key_sound_switch_title"
+                }
+              ]
+            }, 
+            {
+              "intent": {
+                "intent_package": "com.miui.securitycenter", 
+                "intent_action": "com.miui.gamebooster.action.ACCESS_LIGHTEFFECT"
+              }, 
+              "resource": "shoulder_key_game_light_settings"
+            }, 
+            {
+              "fragment": "com.android.settings.shoulderkey.ShortcutSettings", 
+              "resource": "shoulder_key_shortcut_settings"
+            }
+          ]
+        }
+      ], 
+      "resource": "miui_special_feature", 
+      "class": "com.android.settings.search.tree.OtherSpecialFeatureSettingsTree", 
+      "icon": "ic_miui_lab_settings"
+    }, 
+    {
+      "keywords": "search_xiaomi_account", 
+      "intent": {
+        "intent_extra": [
+          {
+            "name": "account_type", 
+            "value": "com.xiaomi"
+          }
+        ], 
+        "intent_package": "com.xiaomi.account", 
+        "intent_action": "android.settings.XIAOMI_ACCOUNT_SYNC_SETTINGS"
+      }, 
+      "resource": "xiaomi_account", 
+      "icon": "xiaomi_account"
+    }, 
+    {
+      "resource": "sync_settings", 
+      "fragment": "com.android.settings.accounts.MiuiAccountSettings", 
+      "son": [
+        {
+          "is_checkbox": "true", 
+          "resource": "account_settings_menu_auto_sync"
+        }, 
+        {
+          "is_checkbox": "true", 
+          "resource": "account_settings_menu_auto_sync_personal"
+        }, 
+        {
+          "is_checkbox": "true", 
+          "resource": "account_settings_menu_auto_sync_work"
+        }, 
+        {
+          "is_checkbox": "true", 
+          "resource": "sync_wifi_only"
+        }, 
+        {
+          "category": "google_title", 
+          "intent": {
+            "intent_class": "com.miui.googlebase.ui.GmsCoreSettings", 
+            "intent_package": "com.miui.securitycenter", 
+            "intent_action": "miui.intent.action.APP_SETTINGS"
+          }, 
+          "resource": "gmscore_settings_title"
+        }
+      ], 
+      "keywords": "search_sync_settings", 
+      "class": "com.android.settings.search.tree.SyncSettingsTree", 
+      "icon": "ic_account_settings"
+    }, 
+    {
+      "intent": {
+        "intent_action": "android.settings.PRIVACY_SETTINGS"
+      }, 
+      "resource": "privacy_dashboard_title", 
+      "icon": "ic_privacy_settings"
+    }, 
+    {
+      "resource": "location_settings_title", 
+      "fragment": "com.android.settings.location.LocationSettings", 
+      "son": [
+        {
+          "is_checkbox": "true", 
+          "resource": "location_access_title"
+        }, 
+        {
+          "is_checkbox": "true", 
+          "resource": "xiaomi_hp_location"
+        }, 
+        {
+          "category": "location_category_recent_location_access", 
+          "fragment": "com.android.settings.location.RecentLocationAccessSeeAllFragment", 
+          "resource": "location_recent_location_access_see_all", 
+          "icon": "ic_chevron_right_24dp"
+        }, 
+        {
+          "is_checkbox": "true", 
+          "resource": "managed_profile_location_switch_title"
+        }, 
+        {
+          "intent": {
+            "intent_extra": [
+              {
+                "name": "android.intent.extra.PERMISSION_NAME", 
+                "value": "android.permission-group.LOCATION"
+              }
+            ], 
+            "intent_action": "android.intent.action.MANAGE_PERMISSION_APPS"
+          }, 
+          "resource": "location_app_level_permissions"
+        }, 
+        {
+          "resource": "location_modem_title"
+        }, 
+        {
+          "fragment": "com.android.settings.location.LocationServices", 
+          "resource": "location_services_preference_title", 
+          "son": [
+            {
+              "fragment": "com.android.settings.location.WifiScanningFragment", 
+              "resource": "location_scanning_wifi_always_scanning_title", 
+              "son": [
+                {
+                  "is_checkbox": "true", 
+                  "resource": "location_scanning_wifi_always_scanning_title"
+                }, 
+                {
+                  "resource": "location_scanning_wifi_always_scanning_description"
+                }
+              ]
+            }, 
+            {
+              "fragment": "com.android.settings.location.BluetoothScanningFragment", 
+              "resource": "location_scanning_bluetooth_always_scanning_title", 
+              "son": [
+                {
+                  "is_checkbox": "true", 
+                  "resource": "location_scanning_bluetooth_always_scanning_title"
+                }, 
+                {
+                  "resource": "location_scanning_bluetooth_always_scanning_description"
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "resource": "location_settings_footer_general"
+        }
+      ], 
+      "keywords": "search_location_settings_title", 
+      "class": "com.android.settings.search.tree.SecuritySettingsTree", 
+      "icon": "ic_location_info_settings"
+    }, 
+    {
+      "intent": {
+        "intent_action": "miui.intent.action.miservice"
+      }, 
+      "resource": "feedback_settings", 
+      "icon": "ic_bugreport_settings"
+    }, 
+    {
+      "intent": {
+        "intent_action": "miui.intent.action.vipservice.new"
+      }, 
+      "resource": "vip_service_settings", 
+      "icon": "ic_vip_service_settings"
+    }
+  ]
+}

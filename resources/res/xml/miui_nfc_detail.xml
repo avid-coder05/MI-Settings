@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.widget.MiuiNFCImagePreference/>
+    <PreferenceCategory android:key="nfc_category"/>
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:persistent="false"
+        android:title="@string/nfc_quick_toggle_title"
+        android:key="toggle_nfc"
+        android:summary="@string/nfc_quick_toggle_summary"/>
+    <com.android.settingslib.miuisettings.preference.SwitchPreference
+        android:title="@string/nfc_secure_settings_title"
+        android:key="nfc_secure_settings"
+        android:summary="@string/nfc_secure_toggle_summary"/>
+    <miuix.preference.DropDownPreference
+        android:title="@string/nfc_payment_default"
+        android:key="nfc_payment"
+        settings:controller="com.android.settings.nfc.MiuiNfcPayPreferenceController"/>
+    <com.android.settingslib.miuisettings.preference.SwitchPreference
+        android:persistent="false"
+        android:title="@string/nfc_dnd_mode_title"
+        android:key="toggle_nfc_dnd_mode"
+        android:summary="@string/preference_toggle_nfc_dnd_mode_summary"/>
+    <com.android.settingslib.miuisettings.preference.Preference
+        android:persistent="false"
+        android:title="@string/nfc_repair_title"
+        android:key="nfc_repair"
+        android:summary="@string/nfc_repair_summary"/>
+</PreferenceScreen>

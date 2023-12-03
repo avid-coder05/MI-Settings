@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+        android:title="@string/wifi_link_turbo"
+        android:key="enable_wifi_link_turbo"
+        android:summary="@string/wifi_link_turbo_summary"/>
+    <com.android.settingslib.miuisettings.preference.ValuePreference
+        android:title="@string/dual_wifi"
+        android:key="dual_wifi"
+        android:summary="@string/dual_wifi_summary">
+        <intent
+            android:targetPackage="com.android.settings"
+            android:action="android.settings.DUAL_WIFI.WIFI_SETTINGS"/>
+    </com.android.settingslib.miuisettings.preference.ValuePreference>
+    <com.android.settingslib.miuisettings.preference.Preference
+        android:title="@string/smart_dual_sim_title"
+        android:key="button_smart_dual_sim_key">
+        <intent
+            android:targetPackage="com.android.phone"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.android.phone.settings.MiuiConfigureMobileSettings"/>
+    </com.android.settingslib.miuisettings.preference.Preference>
+    <com.android.settingslib.miuisettings.preference.miuix.DropDownPreference
+        android:singleLine="true"
+        android:title="@string/wifi_link_turbo_mode"
+        android:key="wifi_link_turbo_mode"
+        settings:entries="@array/wifi_link_turbo_mode_entries"
+        settings:entryValues="@array/wifi_link_turbo_mode_values"/>
+    <PreferenceCategory android:key="wifi_link_turbo_options">
+        <miuix.preference.RadioButtonPreferenceCategory>
+            <miuix.preference.RadioButtonPreference
+                android:layout="@layout/miuix_preference_radiobutton_two_state_background"
+                android:title="@string/wifi_link_turbo_recommendation"
+                android:key="wifi_link_turbo_recommendation"
+                android:summary="@string/wifi_link_turbo_recommendation_summary"/>
+            <miuix.preference.RadioButtonPreference
+                android:layout="@layout/miuix_preference_radiobutton_two_state_background"
+                android:title="@string/wifi_link_turbo_customize"
+                android:key="wifi_link_turbo_customize"
+                android:summary="@string/wifi_link_turbo_customize_summary"/>
+        </miuix.preference.RadioButtonPreferenceCategory>
+    </PreferenceCategory>
+</PreferenceScreen>

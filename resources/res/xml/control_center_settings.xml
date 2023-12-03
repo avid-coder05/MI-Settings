@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.controlcenter.ControlCenterStylePreference
+        android:key="control_center_style"
+        app:negativeContent="@layout/layout_control_center_legacy_content"
+        app:negativeDescription="@string/legacy_control_center_desc"
+        app:negativeTitle="@string/legacy_control_center_title"
+        app:positiveContent="@layout/layout_control_center_modern_content"
+        app:positiveDescription="@string/modern_control_center_desc"
+        app:positiveTitle="@string/modern_control_center_title"/>
+    <com.android.settingslib.miuisettings.preference.miuix.DropDownPreference
+        android:persistent="false"
+        android:title="@string/status_bar_settings_qs_layout"
+        android:key="quick_settings_layout"
+        settings:entries="@array/status_bar_settings_qs_layout_entries"
+        settings:entryValues="@array/status_bar_settings_qs_layout_values"/>
+    <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+        android:persistent="false"
+        android:title="@string/control_panel_switch_side"
+        android:key="control_panel_switch_side"
+        android:summary="@string/requires_modern_control_center"/>
+    <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+        android:persistent="false"
+        android:title="@string/toggle_collapse_after_clicked_title"
+        android:key="collapse_after_clicked"/>
+</PreferenceScreen>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.widget.DarkModeAppsGuideView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <include
+        android:id="@+id/dark_mode_apps"
+        layout="@layout/dark_mode_apps_button"/>
+    <View
+        android:id="@+id/dark_mode_apps_line"
+        android:background="@color/view_line"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="0.73dp"
+        android:layout_marginLeft="29.1dp"
+        android:layout_marginTop="21.8dp"
+        android:layout_marginRight="29.1dp"
+        android:layout_marginBottom="21.8dp"
+        android:layout_below="@+id/dark_mode_apps"/>
+    <TextView
+        android:textSize="13.1sp"
+        android:textColor="@color/dark_mode_apps_header"
+        android:gravity="top"
+        android:id="@+id/dark_mode_apps_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3.6dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:text="@string/dark_mode_apps_header"
+        android:layout_below="@+id/dark_mode_apps_line"
+        android:paddingStart="27dp"/>
+</com.android.settings.widget.DarkModeAppsGuideView>

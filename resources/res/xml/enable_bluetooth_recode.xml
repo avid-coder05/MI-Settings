@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@string/app_enable_bluetooth_record">
+    <PreferenceCategory android:key="bluetooth_enable_recode"/>
+</PreferenceScreen>

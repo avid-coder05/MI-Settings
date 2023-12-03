@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:miui="http://schemas.android.com/apk/res/com.android.settings" xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/popup_title">
+    <PreferenceCategory android:key="popup_voice_setting">
+        <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+            android:title="@string/popup_gesture_title"
+            android:key="popup_gesture_check"
+            android:summary="@string/popup_gesture_summary"/>
+        <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+            android:title="@string/popup_led_title"
+            android:key="popup_led_check"
+            android:summary="@string/popup_led_summary"/>
+        <com.android.settings.popup.PopupCameraLedChoosePreference android:key="popup_led_preference"/>
+        <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+            android:title="@string/popup_voice_title"
+            android:key="popup_voice_check"
+            android:summary="@string/popup_voice_summary"/>
+        <com.android.settings.popup.PopupCameraSoundChoosePreference android:key="popup_voice_preference"/>
+    </PreferenceCategory>
+</PreferenceScreen>

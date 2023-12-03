@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_app_item_icon_max_height">43dp</dimen>
+</resources>

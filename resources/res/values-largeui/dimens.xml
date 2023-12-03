@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="background_application_manage_item_operation_width">80dp</dimen>
+    <dimen name="choose_lock_pattern_tip_margin_top">70dp</dimen>
+    <dimen name="gxzw_new_fingerprint_video_margin">320dp</dimen>
+    <dimen name="settings_panel_default_height">75dp</dimen>
+    <dimen name="volumes_settings_panel_height">325dp</dimen>
+</resources>

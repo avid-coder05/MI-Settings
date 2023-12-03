@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <stroke
+        android:width="@dimen/sos_bottom_native_layout_stroke_width"
+        android:color="@color/sos_stroke_bg"/>
+    <solid android:color="@color/sos_solid_bg"/>
+    <corners android:radius="@dimen/sos_bottom_native_radius"/>
+    <padding
+        android:left="@dimen/sos_bottom_native_padding_right"
+        android:top="@dimen/sos_bottom_native_padding_top"
+        android:right="@dimen/sos_bottom_native_padding_left"
+        android:bottom="@dimen/sos_bottom_native_padding_bottom"/>
+</shape>

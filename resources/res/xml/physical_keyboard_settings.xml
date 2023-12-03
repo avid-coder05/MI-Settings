@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/keyboard_mouse_touch"
+    android:key="keyboard_mouse_touch">
+    <PreferenceCategory
+        android:title="@string/keyboard_assistance_category"
+        android:key="keyboard_assistance_category">
+        <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+            android:title="@string/show_ime"
+            android:key="show_virtual_keyboard_switch"
+            android:summary="@string/show_ime_summary"
+            android:defaultValue="false"/>
+        <com.android.settingslib.miuisettings.preference.Preference
+            android:title="@string/keyboard_shortcuts_helper"
+            android:key="keyboard_shortcuts_helper"
+            android:summary="@string/keyboard_shortcuts_helper_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pointer_settings_category"
+        android:key="pointer_settings_category">
+        <com.android.settings.PointerSpeedPreference
+            android:title="@string/pointer_speed"
+            android:key="pointer_speed"
+            android:dialogTitle="@string/pointer_speed"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/recommend_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/preference_screen_padding_bottom"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/recommend_layout"/>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/prefs_container"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/recommend_view"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:smoothScrollbar="false"/>
+</RelativeLayout>

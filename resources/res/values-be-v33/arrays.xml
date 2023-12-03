@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="captioning_font_size_selector_titles">
+        <item>Вельмі дробны</item>
+        <item>Дробны</item>
+        <item>Сярэдні</item>
+        <item>Вялікі</item>
+        <item>Вельмі вялікі</item>
+    </array>
+    <array name="color_picker">
+        <item>Блакітны</item>
+        <item>Сiнi</item>
+        <item>Зялёны</item>
+        <item>Фіялетавы</item>
+        <item>Ружовы</item>
+        <item>Аранжавы</item>
+    </array>
+</resources>

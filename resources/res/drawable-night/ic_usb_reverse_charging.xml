@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="96dp"
+    android:width="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M20.2263,21.2197C13.2613,27.8158 8.9167,37.1509 8.9167,47.5007C8.9167,57.8506 13.2613,67.1857 20.2263,73.7818"
+        android:strokeColor="#ff0073dd"
+        android:strokeWidth="6.4045"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M28.1431,30.423C23.9363,34.879 21.3574,40.8884 21.3574,47.5001C21.3574,54.1118 23.9363,60.1212 28.1431,64.5772"
+        android:strokeColor="#ff0073dd"
+        android:strokeWidth="6.4045"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M75.3651,20.923C82.515,27.5343 86.9917,36.9948 86.9917,47.5008C86.9917,58.0068 82.515,67.4673 75.3651,74.0786"
+        android:strokeColor="#ff0073dd"
+        android:strokeWidth="6.4045"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M67.7263,30.3825C71.9563,34.8426 74.5513,40.8688 74.5513,47.501C74.5513,54.1333 71.9563,60.1594 67.7263,64.6196"
+        android:strokeColor="#ff0073dd"
+        android:strokeWidth="6.4045"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="#ff0073dd"
+        android:pathData="M34.3264,50.3992L56.1743,16.4509C56.8606,15.3846 58.5091,16.129 58.163,17.3489L51.3114,41.4966C51.1116,42.2008 51.6405,42.9007 52.3725,42.9007H61.7466C62.6195,42.9007 63.1465,43.8666 62.6741,44.6006L40.8262,78.5489C40.14,79.6152 38.4915,78.8708 38.8376,77.6509L45.6892,53.5032C45.889,52.799 45.3601,52.0991 44.6281,52.0991H35.2539C34.381,52.0991 33.854,51.1332 34.3264,50.3992Z"/>
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/res_0x7f08004d_miuix_appcompat_btn_radio_on_to_off_light__0">
+    <target
+        android:name="circle"
+        android:animation="@drawable/res_0x7f08004e_miuix_appcompat_btn_radio_on_to_off_light__1"/>
+</animated-vector>

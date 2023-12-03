@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:background="@drawable/warning_dialog_highlight_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="28dp">
+        <TextView
+            android:textSize="14sp"
+            android:textColor="@color/miui_face_input_warning_dialog_highlight_color"
+            android:id="@+id/highlight_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/face_data_suggesstion_first_cn_highlight"/>
+    </LinearLayout>
+</LinearLayout>

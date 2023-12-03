@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:miui="http://schemas.android.com/apk/res/com.android.settings" xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.display.BrightnessSeekBarPreference
+        android:persistent="true"
+        android:title="@string/screen_brightness"
+        android:key="brightness"/>
+    <PreferenceCategory android:key="brightness_mode_group">
+        <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+            android:title="@string/automatic_brightness"
+            android:key="brightness_auto_mode_enable"
+            android:summary="@string/brightness_auto_summary"
+            android:defaultValue="false"/>
+        <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+            android:title="@string/sunlight_mode"
+            android:key="brightness_sunlight_mode_enable"
+            android:summary="@string/sunlight_mode_summary"
+            android:defaultValue="false"/>
+        <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+            android:title="@string/smooth_adjust_ligth"
+            android:key="brightness_smooth_mode_enable"
+            android:summary="@string/smooth_adjust_ligth_summary"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+    <com.android.settingslib.miuisettings.preference.Preference
+        android:key="high_brightness_hint_summary"
+        android:summary="@string/high_brightness_hint_summary"/>
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#ff72829a"/>
+    <corners android:radius="@dimen/memory_icon_radius"/>
+    <size
+        android:height="@dimen/memory_icon_size"
+        android:width="@dimen/memory_icon_size"/>
+</shape>

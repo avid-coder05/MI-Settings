@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@string/bluetooth_broadcast_audio">
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:title="@string/bluetooth_broadcast_audio"
+        android:key="bluetooth_broadcast_enable"
+        android:order="1"
+        android:disableDependentsState="false"/>
+    <com.android.settingslib.miuisettings.preference.miuix.DropDownPreference
+        android:title="@string/ba_security_settings"
+        android:key="broadcast_audio_pin_code"
+        android:order="2"
+        settings:entries="@array/ba_security_settings_entries"
+        settings:entrySummaries="@array/ba_security_settings_summaries"
+        settings:entryValues="@array/ba_security_settings_values"/>
+    <com.android.settingslib.miuisettings.preference.miuix.DropDownPreference
+        android:title="@string/auto_disable_broadcast_audio"
+        android:key="ba_auto_disable"
+        android:order="3"
+        settings:entries="@array/ba_disable_timeout"
+        settings:entryValues="@array/ba_disable_timeout_value"/>
+</PreferenceScreen>

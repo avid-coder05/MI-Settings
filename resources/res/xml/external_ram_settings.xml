@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@string/external_ram_title">
+    <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+        android:persistent="false"
+        android:title="@string/external_ram_title"
+        android:key="external_ram"
+        settings:controller="com.android.settings.special.ExternalRamController"/>
+</PreferenceScreen>

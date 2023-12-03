@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/lock_screen_action"
+    android:key="lock_screen_action">
+    <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+        android:persistent="false"
+        android:title="@string/status_bar_settings_notification_bar"
+        android:key="lock_screen_notification"/>
+    <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+        android:persistent="false"
+        android:title="@string/control_center"
+        android:key="lock_screen_control_center"
+        android:summary="@string/requires_modern_control_center"/>
+    <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+        android:persistent="false"
+        android:title="@string/smart_home_title"
+        android:key="lock_screen_smart_home"
+        android:summary="@string/requires_modern_control_center"/>
+</PreferenceScreen>

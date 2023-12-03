@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/res_0x7f08004f_miuix_preference_btn_radio_arrow_on__0">
+    <target
+        android:name="arrowanimation"
+        android:animation="@drawable/res_0x7f080050_miuix_preference_btn_radio_arrow_on__1"/>
+</animated-vector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.smooth.SmoothContainerDrawable xmlns:android="http://schemas.android.com/apk/res/android" android:radius="@dimen/visual_box_border_radius">
+    <child>
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="@dimen/visual_box_borderlayout_bg_stroke_width"
+                android:color="@color/font_settings_view_big_color"/>
+            <corners android:radius="@dimen/visual_box_border_radius"/>
+        </shape>
+    </child>
+</miuix.smooth.SmoothContainerDrawable>

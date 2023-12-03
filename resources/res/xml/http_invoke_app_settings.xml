@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/http_invoke_app">
+    <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+        android:persistent="false"
+        android:title="@string/http_invoke_app"
+        android:key="http_invoke_app"
+        android:summary="@string/http_invoke_app_summary"/>
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/res_0x7f080012_bt_refresh__0">
+    <target
+        android:name="group"
+        android:animation="@drawable/res_0x7f080013_bt_refresh__1"/>
+</animated-vector>

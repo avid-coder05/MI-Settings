@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:key="headsetKeyConfig">
+        <com.android.settingslib.miuisettings.preference.miuix.DropDownPreference
+            android:title="@string/miheadset_double_click_left"
+            android:key="left_double"
+            android:defaultValue="0"
+            app:entries="@array/double_tone_entries_left_TWS01"
+            app:entryValues="@array/double_tone_entry_values"/>
+        <com.android.settingslib.miuisettings.preference.miuix.DropDownPreference
+            android:title="@string/miheadset_double_click_right"
+            android:key="right_double"
+            android:defaultValue="0"
+            app:entries="@array/double_tone_entries_right_TWS01"
+            app:entryValues="@array/double_tone_entry_values"/>
+        <com.android.settingslib.miuisettings.preference.miuix.DropDownPreference
+            android:title="@string/miheadset_key_config_triple_left"
+            android:key="left_triple"
+            android:defaultValue="0"
+            app:entries="@array/triple_tone_entries_left_TWS01"
+            app:entryValues="@array/triple_tone_entry_values"/>
+        <com.android.settingslib.miuisettings.preference.miuix.DropDownPreference
+            android:title="@string/miheadset_key_config_triple_right"
+            android:key="right_triple"
+            android:defaultValue="0"
+            app:entries="@array/triple_tone_entriess_right_TWS01"
+            app:entryValues="@array/triple_tone_entry_values"/>
+        <com.android.settingslib.miuisettings.preference.ValuePreference
+            android:title="@string/miheadset_key_config_press_left"
+            android:key="long_press_left_headset"
+            app:showRightArrow="true"/>
+        <com.android.settingslib.miuisettings.preference.ValuePreference
+            android:title="@string/miheadset_key_config_press_right"
+            android:key="long_press_right_headset"
+            app:showRightArrow="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

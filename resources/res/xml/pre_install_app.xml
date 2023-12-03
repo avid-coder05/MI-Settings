@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/pre_install_application">
+    <PreferenceCategory android:title="@string/pre_install_category_appname"/>
+    <com.android.settingslib.miuisettings.preference.Preference android:title="@string/pre_install_app_phone"/>
+    <com.android.settingslib.miuisettings.preference.Preference android:title="@string/pre_install_app_sms"/>
+    <com.android.settingslib.miuisettings.preference.Preference android:title="@string/pre_install_app_browser"/>
+    <com.android.settingslib.miuisettings.preference.Preference android:title="@string/pre_install_app_camera"/>
+    <com.android.settingslib.miuisettings.preference.Preference android:title="@string/pre_install_app_weather"/>
+    <com.android.settingslib.miuisettings.preference.Preference android:title="@string/pre_install_app_gallery"/>
+    <com.android.settings.widget.CustomTextColorValuePreference
+        android:title="@string/pre_install_app_other"
+        android:key="more_pre_install_app"/>
+    <PreferenceCategory android:title="@string/pre_install_category_question">
+        <com.android.settingslib.miuisettings.preference.Preference
+            android:title="@string/pre_install_question_uninstall_title"
+            android:summary="@string/pre_install_question_uninstall_summary"/>
+        <com.android.settingslib.miuisettings.preference.Preference
+            android:title="@string/pre_install_question_disable_title"
+            android:summary="@string/pre_install_question_disable_summary"/>
+        <com.android.settingslib.miuisettings.preference.Preference
+            android:title="@string/pre_install_question_query_title"
+            android:summary="@string/pre_install_question_query_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

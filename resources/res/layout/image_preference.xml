@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:id="@+id/image_preference"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp">
+    <TextView
+        android:textSize="36px"
+        android:textColor="@color/transparent_50_balck"
+        android:gravity="bottom|center_horizontal"
+        android:background="@drawable/edge_guide_hand"
+        android:paddingBottom="74px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edge_mode_guide_title"/>
+</FrameLayout>

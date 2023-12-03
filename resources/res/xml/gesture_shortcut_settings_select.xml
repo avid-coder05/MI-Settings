@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/key_settings">
+    <PreferenceCategory android:key="action_category"/>
+    <com.android.settingslib.miuisettings.preference.Preference
+        android:title="@string/ai_button_title_global"
+        android:key="ai_button_global">
+        <intent android:action="com.miui.voiceassist.ACTION_AI_BUTTON_SETTINGS_GLOBAL"/>
+    </com.android.settingslib.miuisettings.preference.Preference>
+    <com.android.settingslib.miuisettings.preference.Preference
+        android:title="@string/ai_button_title"
+        android:key="ai_button"/>
+</PreferenceScreen>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bleAudioSourceInfo">
+    <PreferenceCategory
+        android:key="source_info_category"
+        android:order="1">
+        <com.android.settingslib.miuisettings.preference.Preference
+            android:title="source id"
+            android:key="ble_audio_source_id"
+            android:summary="00"/>
+        <com.android.settingslib.miuisettings.preference.Preference
+            android:title="source address"
+            android:key="ble_audio_source_address"
+            android:summary="00:00:00:00:00:00"/>
+        <com.android.settingslib.miuisettings.preference.Preference
+            android:title="metadata sync state"
+            android:key="ble_audio_source_meatdata_state"
+            android:summary="NONE"/>
+        <com.android.settingslib.miuisettings.preference.Preference
+            android:title="source enc status"
+            android:key="ble_audio_source_encryption_state"
+            android:summary="No encryption key"/>
+        <com.android.settingslib.miuisettings.preference.Preference
+            android:title="source metadata"
+            android:key="ble_audio_source_metadata"
+            android:summary="Music"/>
+        <com.android.settingslib.miuisettings.preference.Preference
+            android:title="broadcast code"
+            android:key="ble_audio_source_broadcast_code"
+            android:summary="None"/>
+        <com.android.settingslib.miuisettings.preference.Preference
+            android:persistent="false"
+            android:title="audio sync state"
+            android:key="ble_audio_source_audio_sync_state"/>
+    </PreferenceCategory>
+</PreferenceScreen>

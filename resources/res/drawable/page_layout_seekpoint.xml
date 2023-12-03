@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:constantSize="true"
+    android:enterFadeDuration="100"
+    android:exitFadeDuration="100">
+    <item
+        android:state_selected="false"
+        android:drawable="@drawable/screen_view_seek_point_normal"/>
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/screen_view_seek_point_highlight"/>
+</selector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/flashback_title">
+    <PreferenceCategory>
+        <com.android.settingslib.miuisettings.preference.Preference
+            android:enabled="false"
+            android:layout="@layout/flashback_guide"/>
+    </PreferenceCategory>
+    <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+        android:persistent="false"
+        android:paddingTop="60dp"
+        android:title="@string/flashback_open_switch_title"
+        android:key="flashback_main_switch_preference"
+        android:summary="@string/flashback_open_switch_summary"/>
+    <PreferenceCategory android:key="flashback_support_background"/>
+    <com.android.settingslib.miuisettings.preference.CheckBoxPreference
+        android:persistent="false"
+        android:title="@string/flashback_background_start_switch_title"
+        android:key="flashback_background_start_switch_preference"
+        android:summary="@string/flashback_background_start_switch_summary"/>
+    <PreferenceCategory
+        android:title="@string/flashback_support_apps_title"
+        android:key="flashback_support_apps"/>
+</PreferenceScreen>

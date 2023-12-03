@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/card_shape_corner"
+    android:paddingTop="32.7dp"
+    android:paddingBottom="23.3dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="locale">
+    <ImageView
+        android:id="@+id/ringtone_icon"
+        android:layout_width="108px"
+        android:layout_height="108px"
+        android:layout_marginStart="21.8dp"/>
+    <TextView
+        android:textSize="18.2dp"
+        android:textColor="@color/ringtone_item_title_color"
+        android:ellipsize="end"
+        android:id="@+id/ringtone_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21.8dp"
+        android:singleLine="true"
+        android:fontFamily="mipro-medium"
+        android:layout_marginStart="21.8dp"/>
+    <TextView
+        android:textSize="13.8dp"
+        android:textColor="@color/ringtone_item_value_color"
+        android:ellipsize="end"
+        android:id="@+id/ringtone_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1.5dp"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="21.8dp"/>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:miui="http://schemas.android.com/apk/res/com.android.settings" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:key="time_setting_root">
+    <com.android.settings.notification.ZenRuleNamePreference android:key="rule_name_edit"/>
+    <com.android.settings.dndmode.LabelPreference
+        android:persistent="false"
+        android:title="@string/time_zen_mode_turn_on"
+        android:key="time_turn_on"
+        miui:clickable="true"/>
+    <com.android.settings.dndmode.LabelPreference
+        android:persistent="false"
+        android:title="@string/time_zen_mode_turn_off"
+        android:key="time_turn_off"
+        miui:clickable="true"/>
+    <com.android.settings.dndmode.RepeatPreference
+        android:layout="@layout/dndm_label_preference"
+        android:title="@string/repeat_days_in_week"
+        android:key="repeat_days"/>
+</PreferenceScreen>

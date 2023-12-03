@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/external_ram_notification_size"
+    android:width="@dimen/external_ram_notification_size"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M18,34C26.8366,34 34,26.8366 34,18C34,9.1634 26.8366,2 18,2C9.1634,2 2,9.1634 2,18C2,26.8366 9.1634,34 18,34Z"
+        android:strokeColor="@color/external_ram_icon_fill_color"
+        android:strokeWidth="4"
+        android:strokeAlpha="0.6"/>
+    <path
+        android:fillColor="@color/external_ram_icon_fill_color"
+        android:pathData="M18,8.5C16.7574,8.5 15.75,9.5074 15.75,10.75V18.25C15.75,19.4926 16.7574,20.5 18,20.5C19.2426,20.5 20.25,19.4926 20.25,18.25V10.75C20.25,9.5074 19.2426,8.5 18,8.5ZM18,23C16.7574,23 15.75,24.0074 15.75,25.25C15.75,26.4926 16.7574,27.5 18,27.5C19.2426,27.5 20.25,26.4926 20.25,25.25C20.25,24.0074 19.2426,23 18,23Z"
+        android:fillAlpha="0.6"
+        android:fillType="evenOdd"/>
+</vector>

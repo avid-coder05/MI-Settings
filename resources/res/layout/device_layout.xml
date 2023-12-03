@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/about_device"/>
+    <com.android.settings.device.MiuiVersionCard
+        android:id="@+id/miui_version_card_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+    <com.android.settings.device.MiuiDeviceNameCard
+        android:id="@+id/device_name_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.android.settings.device.MiuiMemoryCard
+        android:id="@+id/device_memory_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="146.5dp"
+        android:layout_marginTop="13.1dp"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <miuix.springback.view.SpringBackLayout
+        android:id="@+id/springback_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:scrollableView="@+id/magic_win_list">
+        <miuix.recyclerview.widget.RecyclerView
+            android:id="@+id/magic_win_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Widget.ListView"/>
+    </miuix.springback.view.SpringBackLayout>
+</RelativeLayout>

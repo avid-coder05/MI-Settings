@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.smooth.SmoothContainerDrawable xmlns:android="http://schemas.android.com/apk/res/android" android:radius="12dp">
+    <child>
+        <layer-list>
+            <item android:drawable="@drawable/image_light_mode_top_new"/>
+        </layer-list>
+    </child>
+</miuix.smooth.SmoothContainerDrawable>

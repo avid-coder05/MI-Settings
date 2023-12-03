@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" android:title="@string/virtual_keyboard_category">
+    <com.android.settingslib.miuisettings.preference.Preference
+        android:icon="@drawable/ic_add_24dp"
+        android:title="@string/add_virtual_keyboard"
+        android:key="add_virtual_keyboard_screen"
+        android:order="1000"
+        android:fragment="com.android.settings.inputmethod.AvailableVirtualKeyboardFragment"
+        settings:controller="com.android.settings.inputmethod.InputMethodPreferenceController"/>
+</PreferenceScreen>
